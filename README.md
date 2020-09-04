@@ -1,2 +1,2 @@
 - TBD
-- Editing README to test pull request //rguiles
+- Edit README to test pull request       // rguiles
