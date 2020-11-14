@@ -1,28 +1,42 @@
-@media only screen and (max-width: 600px) {
-    #quotes {
-        text-align: center;
+@media screen and (max-width: 800px) {
+    #quotes, #meditatingGirl {
+        text-align: center !important;
     }
 }
 body{
-    display: block;
+    padding-top: 3.5rem;
+    min-height: 75rem;
 }
 html {
+    font-size: 18px;
+    width: 100%;
     height: 100%;
     font-family: 'Open Sans', sans-serif;
 }
-#navbar {
-    background-color: white;
+.content {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 3.5rem;
+    
 }
 #content1{
-    margin: 0;
-    padding: 0 !important; 
     width: 100%;
     max-width: 100%;
-    background: linear-gradient(rgb(255, 247, 247),#f5fcff);
+    background: linear-gradient(rgb(255, 255, 255),#f9fdff);
+}
+#content1Row1 {
+    padding: 0;
+    margin: 0;
+}
+#content2 {
+    width: 100%;
+    max-width: 100%;
+    background: linear-gradient(#f9fdff,#e8f8ff);
+}
+#quotes {
+    text-align: left;
 }
 #meditatingGirl {
     text-align: center;
-    transform: translate(0px, 1.5px);
 }
 #torso {
     animation: breathing 3s infinite linear;
@@ -42,12 +56,12 @@ html {
         transform: translate(0px, 0px);
     }
     to {
-        transform:  translate(0px, -7.5px);
+        transform:  translate(0px, -8.5px);
     }
 }
 @keyframes breathing {
     from {
-        transform: scale();
+        transform: scale(1);
     }
     to {
         transform: scale(1.15);

@@ -5,6 +5,7 @@
     <link rel="icon" type="image/png" href="assets/pictures/MindSanctuary_Icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="assets/styles/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/general.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">  
 
@@ -24,16 +25,40 @@
 </head>
 <body>
     <!-- Navbar Image and text -->
-    <nav class="navbar sticky-top navbar-light" id="navbar">
+    <nav class="navbar navbar-expand-md fixed-top navbar-light" id="navbar">
         <a class="navbar-brand" href="">
             <img src="assets/pictures/MindSanctuary_Icon.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
             Mind Sanctuary
         </a>
+        <button class="navbar-toggler ml-auto" id="custom-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span id="navbarToggler">
+                <svg width="25" height="40" viewBox="0 0 50 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="toggle">
+                        <line id="bottomBar" x1="2.50073" y1="37.5" x2="47.4989" y2="37.5" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <line id="midBar" x1="2.50073" y1="20.1549" x2="47.5001" y2="20.1549" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <line id="topBar" x1="2.5" y1="2.5" x2="47.4993" y2="2.5" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                </svg>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="">Articles</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="">Meditation</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
-    <div class="container-fluid" id="content1">
-        <div class="container row">
-            <div class="col-lg-6 col-md-6 col-sm-12" id="meditatingGirl">
+    <div class="content container" id="content1">
+        <div class="container-fluid row" id="content1Row1">
+            <div class="col-lg-4 col-md-6 col-sm-12" id="meditatingGirl">
                 <!--Meditating Girl SVG-->
                 <svg width="319" height="244" viewBox="0 0 319 244" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="meditation">
@@ -59,14 +84,16 @@
                     </g>
                 </svg>    
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12" id="quotes">
-                <h1 class="display-3">Be At Peace</h1>
-                <h2>Don't forget to breathe.</h2>
+            <div class="col-lg-8 col-md-6 col-sm-12" id="quotes">
+                <h1 class="" style="color: #4b4c4d; font-weight: 550; font-size: 68px; margin-bottom: 2rem;">Be At Peace</h1>
+                <p style="font-size: 20px; color: #4b4c4d;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus cumque ipsa voluptatum. Repellendus, earum? Asperiores.</p>
+                <a class="btn" id="btn" href="" role="button"><b>Click Me</b></a>
             </div>
-            
-        </div>
+        </div> 
+    </div>
+
+    <div class="content container" id="content2">
         
-            
     </div>
 
 </body>
