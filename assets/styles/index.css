@@ -1,3 +1,8 @@
+@media only screen and (max-width: 600px) {
+    #quotes {
+        text-align: center;
+    }
+}
 body{
     display: block;
 }
@@ -9,7 +14,6 @@ html {
     background-color: white;
 }
 #content1{
-    text-align: center;
     margin: 0;
     padding: 0 !important; 
     width: 100%;
@@ -17,7 +21,7 @@ html {
     background: linear-gradient(rgb(255, 247, 247),#f5fcff);
 }
 #meditatingGirl {
-    height: 1000px;
+    text-align: center;
     transform: translate(0px, 1.5px);
 }
 #torso {
