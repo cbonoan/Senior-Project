@@ -1,4 +1,10 @@
-#content1 {
-    height: 200px;
-    background-image: linear-gradient(white, blue);
+html {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+#navbar {
+    background-color: white;
+}
+#content1{
+    background: linear-gradient(#F4F8FF,#EAF2FF);
 }
