@@ -1,0 +1,35 @@
+/* Include this file on every HTML header */ 
+@media screen and (min-width: 800px) {
+    #navbar{
+        padding-left: 5rem;
+    }
+    #navbarContent {
+        padding-left: 2.5rem;
+    }
+}
+#navbar {
+    margin: 0;
+    background-color: white;
+}
+#navbarContent {
+    font-size: 16px;
+}
+#custom-toggler{
+    border: none;
+    background: transparent !important;
+}
+#toggle{
+    transform-origin: center;
+}
+
+#btn {
+    color: white;
+    background-color: #1e56a0;
+    border-color: #1e56a0;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    padding: .3rem 1.25rem;
+    border-radius: 1.7rem;
+    box-shadow: 1.5px 2.5px 2.5px 0px rgb(136, 136, 136);
+}
+ 
