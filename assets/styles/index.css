@@ -1,3 +1,6 @@
+body{
+    display: block;
+}
 html {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
@@ -6,5 +9,43 @@ html {
     background-color: white;
 }
 #content1{
-    background: linear-gradient(#F4F8FF,#EAF2FF);
+    text-align: center;
+    margin: 0;
+    padding: 0 !important; 
+    width: 100%;
+    max-width: 100%;
+    background: linear-gradient(rgb(255, 247, 247),#f5fcff);
+}
+#meditatingGirl {
+    height: 1000px;
+    transform: translate(0px, 1.5px);
+}
+#torso {
+    animation: breathing 3s infinite linear;
+    animation-direction: alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#arms {
+    animation: shrugging 3s infinite linear;
+    animation-direction: alternate;
+}
+.shadow {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px
+}
+@keyframes shrugging {
+    from{
+        transform: translate(0px, 0px);
+    }
+    to {
+        transform:  translate(0px, -7.5px);
+    }
+}
+@keyframes breathing {
+    from {
+        transform: scale();
+    }
+    to {
+        transform: scale(1.15);
+    }
 }
