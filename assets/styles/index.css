@@ -5,12 +5,18 @@
     #randQuote {
         padding-right: 0 !important;
     }
+    #content2 {
+        padding: 5rem 2rem !important;
+    }
+    #content2row1 {
+        flex-wrap: wrap !important;
+    }
+    #content2row2 {
+        display: none;
+    }
 }
-
 .content {
-    font-family: 'Open Sans', sans-serif;
-    padding-top: 3.5rem;
-    
+    font-family: 'Open Sans', sans-serif;    
 }
 #content1{
     width: 100%;
@@ -20,11 +26,6 @@
 #content1Row1 {
     padding: 0;
     margin: 0;
-}
-#content2 {
-    width: 100%;
-    max-width: 100%;
-    background: linear-gradient(#f9fdff,#e8f8ff);
 }
 #quotes {
     letter-spacing: -1.25px;
@@ -48,6 +49,31 @@
 #arms {
     animation: shrugging 3s infinite linear;
     animation-direction: alternate;
+}
+#content2 {
+    padding: 14rem 10rem;
+    width: 100%;
+    max-width: 100%;
+    background: linear-gradient(#f9fdff,#e8f8ff);
+}
+#content2row1 div, #content2row2 div {
+    margin: 0;
+    padding: 0rem;
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#content2row1, #content2row2 {
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: nowrap;
 }
 .shadow {
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px
