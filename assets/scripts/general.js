@@ -8,10 +8,12 @@ function getRandomColor() {
     return color;
 }
 function navLinkHover(x) {
-    x.style.borderBottom = "1.5px solid " + getRandomColor();
+    var elem = x.children[0]; 
+    elem.style.borderBottom = "2px solid " + getRandomColor();
 }
 function navLinkMouseOut(x) {
-    x.style.borderBottom = 0;
+    var elem = x.children[0]; 
+    elem.style.borderBottom = 0;
 }
 window.onload = function() {
     document.addEventListener("scroll", function() {

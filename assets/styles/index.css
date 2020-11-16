@@ -1,3 +1,5 @@
+@import "keyframes.css";
+
 @media screen and (max-width: 800px) {
     #quotes, #meditatingGirl {
         text-align: center !important;
@@ -6,12 +8,22 @@
         padding-right: 0 !important;
     }
     #content2 {
-        padding: 5rem 2rem !important;
+        padding: 0rem 2rem !important;
     }
-    #content2row1 {
+    #content2row1, #content2row2 {
         flex-wrap: wrap !important;
     }
-    #content2row2 {
+    #content2row2 .article {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    #content2row2 .article:nth-child(1) {
+        margin-bottom: 5px;
+    }
+    #content2row2 .article:nth-child(2) {
+        margin-top: 5px;
+    }
+    .nextDiv {
         display: none;
     }
 }
@@ -50,47 +62,77 @@
     animation: shrugging 3s infinite linear;
     animation-direction: alternate;
 }
-#content2 {
-    padding: 14rem 10rem;
+#balloon {
+    padding: 3rem 0.5rem;
     width: 100%;
     max-width: 100%;
     background: linear-gradient(#f9fdff,#e8f8ff);
+    text-align: center;
 }
-#content2row1 div, #content2row2 div {
+#balloon svg {
+    max-width: 100%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#content2 {
+    padding: 5rem 10rem;
+    width: 100%;
+    max-width: 100%;
+    background: linear-gradient(#e8f8ff,#e0f6ff);
+}
+#content2row1 .article, #content2row2 .article {
     margin: 0;
     padding: 0rem;
-    background-color: #ddd;
     border: none;
     color: black;
-    padding: 10px 20px;
     text-decoration: none;
     text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
     border-radius: 10px;
 }
+#content2row1 .article > .centered, #content2row2 .article > .centered {
+    opacity: 0;
+}
+#content2row1 .article:hover > img, #content2row2 .article:hover > img {
+    opacity: 0.5;
+    transition: opacity .5s ease-out;
+}
+#content2row1 .article:hover > .centered , #content2row2 .article:hover > .centered {
+    opacity: 1;
+    transition: opacity .5s ease-out;
+}
+#content2row1 .article {
+    background: #46b3e6;
+    margin-bottom: 10px;
+}
+#content2row2 .article:nth-child(1) {
+    background: #7984ee;
+}
+#content2row2 .article:nth-child(2) {
+    background: #d6e4f0;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
 #content2row1, #content2row2 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
     margin-left: auto;
     margin-right: auto;
     flex-wrap: nowrap;
 }
+#content2row2 {
+    flex-wrap: wrap !important;
+}
 .shadow {
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px
 }
-@keyframes shrugging {
-    from{
-        transform: translate(0px, 0px);
-    }
-    to {
-        transform:  translate(0px, -8.5px);
-    }
-}
-@keyframes breathing {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.15);
-    }
+.nextDiv a:hover > i {
+    animation: karetAnimDown 0.5s linear infinite;
+    animation-direction: alternate;
 }
