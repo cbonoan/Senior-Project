@@ -1,19 +1,5 @@
+@import "keyframes.css";
 /* Include this file on every HTML header */ 
-@media screen and (min-width: 800px) {
-    #navbar{
-        padding-left: 5rem !important;
-    }
-    #navbarContent {
-        font-weight: normal !important;
-        font-size: 10px !important;
-        padding-left: 2.5rem !important;
-        background-color: white !important;
-        letter-spacing: normal !important;
-    }
-    #navbarIcon {
-        display: none;
-    }
-}
 #body{
     font-family: 'Open Sans', sans-serif;
     padding-top: 3.5rem;
@@ -40,26 +26,21 @@ html {
     font-size: 0.75em;
     padding-left: 0.75rem;
 }
-#navLink:hover > i{
-    animation: karetAnim 1s infinite linear;
+#navLink:hover > .navName i{
+    animation: karetAnimRight 1s infinite linear;
     animation-direction: alternate;
 }
 #navList > a {
     border-bottom: 0px;
 } 
-@keyframes karetAnim {
-    from {
-        transform: translateX(0px);
-    }
-    to {
-        transform:  translateX(0.5rem);
-    }
-}
+
 #navbarContent {
     font-weight: bold;
     font-size: 2.5rem;
-    padding-left: 1rem;
     letter-spacing: -1.5px;
+}
+#navList .nav-link {
+    padding-left: 1.5rem !important;
 }
 #custom-toggler{
     border: none;
@@ -72,11 +53,11 @@ html {
     color: white;
     background-color: #1e56a0;
     border-color: #1e56a0;
-    font-size: 16px;
+    font-size: 10px;
     font-family: 'Open Sans', sans-serif;
-    padding: .3rem 1.25rem;
+    padding: .3rem 0.75rem;
     border-radius: 1.7rem;
-    box-shadow: 1.5px 2.5px 2.5px 0px rgb(136, 136, 136);
+    box-shadow: 0px 1.75px 2.5px 0px rgb(136, 136, 136);
     letter-spacing: normal;
 }
 #btn:hover {
