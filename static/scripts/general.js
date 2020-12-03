@@ -20,8 +20,11 @@ window.onload = function() {
         var elem  = document.getElementById("navbar");
         if(window.scrollY != 0) {
             elem.classList.add("shadow");
+            if(window.innerWidth > 1000)
+                elem.style.padding = "0.5rem";
         } else {
             elem.classList.remove("shadow");
+            elem.style.padding = "0rem";
         }
     });
     

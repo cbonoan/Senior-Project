@@ -1,0 +1,5 @@
+@media screen and (max-width: 800px) {
+    #navLink span {
+        font-size: 1.25rem !important;
+    }
+}

@@ -1,8 +1,13 @@
 @import "keyframes.css";
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1500px) {
     #quotes, #meditatingGirl {
         text-align: center !important;
+    }
+    #meditatingGirl svg {
+        padding-left: 0rem !important;
+        width: 319px !important;
+        height: 244px !important;
     }
     #randQuote {
         padding-right: 0 !important;
@@ -52,6 +57,11 @@
 #meditatingGirl {
     text-align: center;
 }
+#meditatingGirl svg {
+    padding-left: 3rem;
+    width: 750px;
+    height: 350px;
+}
 #torso {
     animation: breathing 3s infinite linear;
     animation-direction: alternate;
@@ -66,7 +76,7 @@
     padding: 3rem 0.5rem;
     width: 100%;
     max-width: 100%;
-    background: linear-gradient(#f9fdff,#e8f8ff);
+    background: linear-gradient(#f9fdff,#d8f3ff);
     text-align: center;
 }
 #balloon svg {
@@ -79,10 +89,11 @@
     transform: translate(-50%, -50%);
 }
 #content2 {
-    padding: 5rem 10rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
     width: 100%;
     max-width: 100%;
-    background: linear-gradient(#e8f8ff,#e0f6ff);
+    background: linear-gradient(#d8f3ff,#ddf4fd);
 }
 #content2row1 .article, #content2row2 .article {
     margin: 0;
