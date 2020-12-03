@@ -6,7 +6,7 @@
 #body{
     font-family: 'Open Sans', sans-serif;
     padding-top: 3.5rem;
-    min-height: 75rem;
+    min-height: 50rem;
 }
 html {
     scroll-behavior: smooth;
@@ -43,7 +43,6 @@ html {
 #navList > a {
     border-bottom: 0px;
 } 
-
 #navbarContent {
     font-weight: bold;
     font-size: 2.5rem;
