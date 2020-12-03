@@ -1,2 +1,6 @@
+- How to test with flask
+    - First install required python packages
+    - Find out your IPV4 for you will need it in order to run flask app
+    - Command to run web app: python run.py <IPV4 address>
 - Required python modules to install:
     - flask 
