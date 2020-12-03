@@ -9,7 +9,7 @@ function getRandomColor() {
 }
 function navLinkHover(x) {
     var elem = x.children[0]; 
-    elem.style.borderBottom = "2px solid " + getRandomColor();
+    elem.style.borderBottom = "3px solid " + getRandomColor();
 }
 function navLinkMouseOut(x) {
     var elem = x.children[0]; 
