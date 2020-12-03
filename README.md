@@ -1,2 +1,2 @@
-- TBD
-- Edit README to test pull request       // rguiles
+- Required python modules to install:
+    - flask 

@@ -1,6 +1,9 @@
 @import "keyframes.css";
 
 @media screen and (max-width: 1500px) {
+    #slogan {
+        font-size: 1rem !important;
+    }
     #quotes, #meditatingGirl {
         text-align: center !important;
     }
@@ -43,6 +46,12 @@
 #content1Row1 {
     padding: 0;
     margin: 0;
+}
+#slogan {
+    color: black; 
+    font-weight: 550; 
+    font-size: 3rem; 
+    margin-bottom: 1.5rem;
 }
 #quotes {
     letter-spacing: -1.25px;
