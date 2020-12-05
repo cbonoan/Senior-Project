@@ -15,6 +15,7 @@ function navLinkMouseOut(x) {
     var elem = x.children[0]; 
     elem.style.borderBottom = 0;
 }
+
 window.onload = function() {
     document.addEventListener("scroll", function() {
         var elem  = document.getElementById("navbar");
@@ -33,7 +34,6 @@ window.onload = function() {
         var topBar = document.getElementById("topBar");
         var midBar = document.getElementById("midBar");
         var bottomBar = document.getElementById("bottomBar");
-        var dropDownElem = document.getElementById("navbarContent");
         
         topBar.style.transitionDuration = "0.25s";
         midBar.style.transitionDuration = "0.25s";
@@ -46,15 +46,25 @@ window.onload = function() {
             midBar.style.opacity = 0;
             bottomBar.style.transform = "rotate(-45deg)";
             bottomBar.style.transform += "translate(0px,-18px)";
-            dropDownElem.style.backgroundColor = "#fbfbff";
-            dropDownElem.style.width - "100%";
+            
         } else if(window.getComputedStyle(midBar).getPropertyValue("opacity") == 0){
             topBar.style.transform = "rotate(0deg)";
             midBar.style.opacity = 1;
             bottomBar.style.transform = "rotate(0deg)";
-            dropDownElem.style.backgroundColor = "white";
         }
-
+        const nav = document.querySelector('.navList');
+        const navLinks = document.querySelectorAll('.navList li');
+        //Toggle nav
+        nav.classList.toggle('nav-active');
+        //Animating links
+        navLinks.forEach((link,index) => {
+            if(link.style.animation) {
+                link.style.animation = ''; 
+            } else {
+                link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
+                console.log(index/7)
+            }
+        });
     });
 
     
