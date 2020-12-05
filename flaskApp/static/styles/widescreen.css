@@ -1,12 +1,8 @@
-@media screen and (min-width: 1000px) {
-    #navbar{
-        padding-left: 5rem !important;
-    }
-    #navbarContent {
+@media screen and (min-width: 1251px) {
+    .navList {
         font-weight: normal !important;
         font-size: 10px !important;
         padding-left: 0 !important;
-        background-color: white !important;
         letter-spacing: normal !important;
     }
     #navbarIcon {
