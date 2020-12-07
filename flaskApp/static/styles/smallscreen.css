@@ -1,6 +1,6 @@
 @media screen and (max-width: 1250px) {
     #navLink span {
-        font-size: 1rem !important;
+        font-size: 0.75rem !important;
     }
     #navbar .navbar-brand{
         margin-right: 0px;
@@ -20,9 +20,6 @@
     }
     .navList li{
         opacity: 0;
-    }
-    #navbarIcon {
-        padding-left: 0.3rem;
     }
     #custom-toggler {
         display: flex;
