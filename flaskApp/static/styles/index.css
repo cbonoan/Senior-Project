@@ -1,5 +1,13 @@
 @import "keyframes.css";
 
+@media screen and (max-width: 765px) {
+    #slogan {
+        display: none !important;
+    }
+    #sloganText {
+        display: block !important;
+    }
+}
 @media screen and (max-width: 1500px) {
     #slogan {
         font-size: 2rem !important;
@@ -36,7 +44,7 @@
     }
 }
 .content {
-    font-family: 'Open Sans', sans-serif;    
+    font-family: 'Open Sans', sans-serif, cursive;    
 }
 #content1{
     width: 100%;
@@ -48,10 +56,14 @@
     margin: 0;
 }
 #slogan {
+    font-family: 'Oleo Script', Helvetica, sans-serif;
     color: black; 
     font-weight: 550; 
     font-size: 3rem; 
-    margin-bottom: 1.5rem;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+}
+#sloganText {
+    display: none;
 }
 #quotes {
     letter-spacing: -1.25px;

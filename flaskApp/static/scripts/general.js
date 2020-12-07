@@ -1,19 +1,21 @@
 /*Add file to every HTML page*/
 function getRandomColor() {
     var letters = '0123456789ABCDEF';
-    var color = '#';
-    for (var i = 0; i < 6; i++) {
+    var color = '#E';
+    for (var i = 0; i < 5; i++) {
       color += letters[Math.floor(Math.random() * 16)];
     }
     return color;
 }
-function navLinkHover(x) {
+//Adds random bottom border line to nav links
+function navLinkHover(x, color) {
     var elem = x.children[0]; 
-    elem.style.borderBottom = "3px solid " + getRandomColor();
+    elem.style.transitionDuration = '0.5s';
+    elem.style.backgroundColor = color;
 }
 function navLinkMouseOut(x) {
     var elem = x.children[0]; 
-    elem.style.borderBottom = 0;
+    elem.style.backgroundColor = '';
 }
 
 window.onload = function() {
@@ -62,7 +64,6 @@ window.onload = function() {
                 link.style.animation = ''; 
             } else {
                 link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
-                console.log(index/7)
             }
         });
     });
