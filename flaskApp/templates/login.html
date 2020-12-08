@@ -1,5 +1,31 @@
 {% extends "layout.html" %}
 {% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/login.css') }}">
 {%endblock%}
 {%block content%}
+    <div>
+        
+        <form action=""> 
+            <div class="loginImg text-center">
+                <img src="{{ url_for('static', filename='pictures/MindSanctuary_Icon.png') }}" alt="" width="165" height="165">
+                <h4>Welcome Back!</h4>
+            </div>
+            <div class="emailSection form-group">
+                <input type="text" name="email" autocomplete="off" placeholder="Email" required>
+                <label for="email" class="labelEmail"></label>
+            </div>
+            <div class="passwordSection text-left form-group">
+                <input type="password" name="pwd" autocomplete="off" placeholder="Password" required>
+                <label for="pwd" class="labelPwd"></label>
+                <small class="text-muted pwdHelp">Forgot Password?</small>
+            </div>
+            <div class="rememberMe checkbox text-left">
+                <label for="">
+                    <input type="checkbox" name="" id="">
+                    Remember Me
+                </label>
+            </div>
+            <a class="btn" id="btn" href="" role="button" style="width: 100%;"><b>Sign In</b></a>
+        </form>
+    </div>
 {%endblock%}

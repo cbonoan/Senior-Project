@@ -47,6 +47,7 @@
     font-family: 'Open Sans', sans-serif, cursive;    
 }
 #content1{
+    padding-top: 3.5rem;
     width: 100%;
     max-width: 100%;
     background: linear-gradient(rgb(255, 255, 255),#f9fdff);
@@ -56,11 +57,9 @@
     margin: 0;
 }
 #slogan {
-    font-family: 'Oleo Script', Helvetica, sans-serif;
     color: black; 
     font-weight: 550; 
     font-size: 3rem; 
-    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
 }
 #sloganText {
     display: none;
@@ -138,14 +137,14 @@
     transition: opacity .5s ease-out;
 }
 #content2row1 .article {
-    background: #46b3e6;
+    background: #ace5ff;
     margin-bottom: 10px;
 }
 #content2row2 .article:nth-child(1) {
-    background: #7984ee;
+    background: #46b3e6;
 }
 #content2row2 .article:nth-child(2) {
-    background: #d6e4f0;
+    background:#4d80e4;
 }
 img {
     max-width: 100%;

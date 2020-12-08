@@ -1,0 +1,46 @@
+@import "smallscreen.css";
+@import "widescreen.css";
+#body {
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;  
+    background: #f5faf4;  
+}
+.loginImg {
+    padding-bottom: 0.75rem;
+}
+form {
+    margin-top: 10rem;
+    padding: 1rem 1rem;
+    background: white;
+    border-radius: 25px;
+    font-size: 20px;
+    width: 100%;
+    position: relative;
+}
+.emailSection input, .passwordSection input {
+    width: 100%;
+    height: 100%;
+    color: #595f6e;
+    border: none;
+    outline: none;
+}
+.emailSection label, .passwordSection label {
+    left: 0;
+    width: 100%;
+    height: 50%;
+    pointer-events: none;
+    border-bottom: 2px solid black;
+}
+.emailSection input:focus + .labelEmail, 
+.emailSection input:valid + .labelEmail,
+.passwordSection input:focus + .labelPwd,
+.passwordSection input:valid + .labelPwd {
+    border-bottom: 4px solid #25A970;
+}
+.pwdHelp {
+    cursor: pointer;
+}

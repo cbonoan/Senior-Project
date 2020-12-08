@@ -9,8 +9,6 @@
 }
 #body{
     font-family: 'Open Sans', sans-serif;
-    padding-top: 3.5rem;
-    min-height: 50rem;
 }
 html {
     scroll-behavior: smooth;
@@ -44,6 +42,10 @@ html {
 }
 #navLink {
     font-size: 0.5rem;
+}
+#navLink span {
+    padding: 0.1rem;
+    border-radius: 0.5rem;
 }
 .navList {
     margin-bottom: 0;

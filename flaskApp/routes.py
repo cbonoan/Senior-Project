@@ -8,4 +8,4 @@ def home():
 
 @app.route("/login")
 def login():
-    return render_template('login.html')
+    return render_template('login.html', title='Login')
