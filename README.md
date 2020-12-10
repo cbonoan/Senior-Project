@@ -8,3 +8,5 @@
     - Command to run web app: python run.py -IPV4 address-
 - Required python modules to install:
     - flask 
+    - flask_bcrypt
+    - flask_sqlalchemy
