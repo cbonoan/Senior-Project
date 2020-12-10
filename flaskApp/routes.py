@@ -12,7 +12,6 @@ def home():
 @app.route("/register", methods=['GET','POST'])
 def register():
     if request.method == 'POST':
-        register = request.form
         firstName = register['firstName']
         lastName = register['lastName']
         email = register['email']
@@ -31,3 +30,6 @@ def login():
         username = request.form['username']
         password = request.form['password']
     return render_template('login.html', title='Login')
+@app.route("/meditation")
+def meditation():
+    return render_template('meditation.html')
