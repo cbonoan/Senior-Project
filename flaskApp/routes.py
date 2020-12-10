@@ -9,6 +9,10 @@ from flaskApp.models import *
 def home():
     return render_template('index.html')
 
+@app.route("/meditation")
+def meditation():
+    return render_template('meditation.html')
+
 @app.route("/register", methods=['GET','POST'])
 def register():
     if request.method == 'POST':
@@ -31,3 +35,4 @@ def login():
         username = request.form['username']
         password = request.form['password']
     return render_template('login.html', title='Login')
+
