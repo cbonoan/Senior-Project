@@ -1,0 +1,7 @@
+<svg width="50" height="40" viewBox="0 0 50 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="toggle">
+<line id="bottomBar" x1="2.50073" y1="37.5" x2="47.4989" y2="37.5" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line id="midBar" x1="2.50073" y1="20.1549" x2="47.5001" y2="20.1549" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line id="topBar" x1="2.5" y1="2.5" x2="47.4993" y2="2.5" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
