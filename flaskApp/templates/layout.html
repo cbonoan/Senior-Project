@@ -50,6 +50,7 @@ rather usea consistent template -->
             <li class="nav-item active">
                 <a onmouseover="navLinkHover(this, '#33b88c')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/meditation" id="navLink"><span class="navName">Meditation</span></a>
             </li>
+            
             <li class="nav-item active">
                 <a onmouseover="navLinkHover(this, '#2EAD76')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/login" id="navLink"><span class="navName">Login</span></a>
             </li>
@@ -67,5 +68,6 @@ rather usea consistent template -->
     {% block content %}{%endblock %}
 
     <script src="{{ url_for('static', filename='scripts/general.js')}}"></script>
+    {%block scripts%}{%endblock%}
 </body>
 </html>

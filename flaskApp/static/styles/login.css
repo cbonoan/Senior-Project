@@ -1,5 +1,14 @@
 @import "smallscreen.css";
 @import "widescreen.css";
+@media screen and (max-width: 784px) {
+    .loginImg img {
+        width: 82.5px;
+        height: 82.5px;
+    }
+    .loginImg h2 {
+        font-size: 14px;
+    }
+}
 #body {
     height: 60vh;
     display: flex;
@@ -17,30 +26,32 @@ form {
     padding: 1rem 1rem;
     background: white;
     border-radius: 25px;
-    font-size: 20px;
+    font-size: 18px;
     width: 100%;
     position: relative;
 }
-.emailSection input, .passwordSection input {
+.form-group {
+    margin-bottom: 0.5rem !important;
+}
+.emailSection input, .passwordSection input, .nameSection input {
     width: 100%;
     height: 100%;
     color: #595f6e;
     border: none;
     outline: none;
 }
-.emailSection label, .passwordSection label {
+.emailSection label, .passwordSection label, .nameSection label {
     left: 0;
     width: 100%;
     height: 50%;
     pointer-events: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #616570;
 }
 .emailSection input:focus + .labelEmail, 
 .emailSection input:valid + .labelEmail,
 .passwordSection input:focus + .labelPwd,
-.passwordSection input:valid + .labelPwd {
-    border-bottom: 4px solid #25A970;
-}
-.pwdHelp {
-    cursor: pointer;
+.passwordSection input:valid + .labelPwd,
+.nameSection input:focus + .labelName,
+.nameSection input:valid + .labelName {
+    border-bottom: 3px solid #25A970;
 }
