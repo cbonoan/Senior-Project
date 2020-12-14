@@ -23,8 +23,8 @@ About/Help
 Questions
 Journal
 
-Quiz Ideas:
-Interview for ideas <--- 12/14
+Quiz Ideas: (Make sure to check progress, he may already have most of it completed)
+Interview for ideas <---
 ...
 
 Useful links:
@@ -32,6 +32,27 @@ AI
 https://pypi.org/project/experta/
 https://www.youtube.com/watch?v=T3cOU_ljfr8
 https://blog.api.rakuten.net/top-sentiment-analysis-api/
+
+Possible Recommendations...
+| Articles
+https://www.nhs.uk/conditions/stress-anxiety-depression/mood-self-assessment/
+    5 steps to mental wellbeing
+    Get help for low mood, depression and sadness
+    Get help with anxiety, fear and panic
+    Get help with stress
+    Healthy weight
+    How to cope with money worries
+    Feeling lonely
+    Post-traumatic stress disorder (PTSD)
+    10 tips to beat insomnia
+    Generalised anxiety disorder
+    Mental health apps on the NHS Apps Library
+    Mind, the mental health charity
+    Anxiety UK
+    Samaritans
+    * Note: UK webpages...might want to find a resource from a 'Merica domain*
+| Music
+    ...
 
 SECURITY
 https://github.com/RhinoSecurityLabs
@@ -58,7 +79,11 @@ https://medlineplus.gov/mentaldisorders.html
 https://www.medicalnewstoday.com/articles/154543
 https://www.mqmentalhealth.org/stress-and-mental-health/?lang=en_us
 https://www.nimh.nih.gov/health/topics/anxiety-disorders/index.shtml
-
+    
+    -> QUESTIONARIE
+    https://quantifiedself.com/blog/how-is-mood-measured-get-your-mood-on-part-2/
+    https://en.wikipedia.org/wiki/Profile_of_mood_states
+    https://positivepsychology.com/mood-charts-track-your-mood/
 
 
 
