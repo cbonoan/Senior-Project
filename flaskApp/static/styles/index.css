@@ -1,0 +1,169 @@
+@import "keyframes.css";
+
+@media screen and (max-width: 765px) {
+    #slogan {
+        display: none !important;
+    }
+    #sloganText {
+        display: block !important;
+    }
+}
+@media screen and (max-width: 1500px) {
+    #slogan {
+        font-size: 2rem !important;
+    }
+    #quotes, #meditatingGirl {
+        text-align: center !important;
+    }
+    #meditatingGirl svg {
+        padding-left: 0rem !important;
+        width: 319px !important;
+        height: 244px !important;
+    }
+    #randQuote {
+        padding-right: 0 !important;
+    }
+    #content2 {
+        padding: 0rem 2rem !important;
+    }
+    #content2row1, #content2row2 {
+        flex-wrap: wrap !important;
+    }
+    #content2row2 .article {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    #content2row2 .article:nth-child(1) {
+        margin-bottom: 5px;
+    }
+    #content2row2 .article:nth-child(2) {
+        margin-top: 5px;
+    }
+    .nextDiv {
+        display: none;
+    }
+}
+.content {
+    font-family: 'Open Sans', sans-serif, cursive;    
+}
+#content1{
+    padding-top: 3.5rem;
+    width: 100%;
+    max-width: 100%;
+    background: linear-gradient(rgb(255, 255, 255),#f9fdff);
+}
+#content1Row1 {
+    padding: 0;
+    margin: 0;
+}
+#slogan {
+    color: black; 
+    font-weight: 550; 
+    font-size: 3rem; 
+}
+#sloganText {
+    display: none;
+}
+#quotes {
+    letter-spacing: -1.25px;
+    text-align: left;
+}
+#randQuote {
+    padding-right: 10rem;
+}
+#quotes h1 {
+    letter-spacing: -2px;
+}
+#meditatingGirl {
+    text-align: center;
+}
+#meditatingGirl svg {
+    padding-left: 3rem;
+    width: 750px;
+    height: 350px;
+}
+#torso {
+    animation: breathing 3s infinite linear;
+    animation-direction: alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#arms {
+    animation: shrugging 3s infinite linear;
+    animation-direction: alternate;
+}
+#balloon {
+    padding: 3rem 0.5rem;
+    width: 100%;
+    max-width: 100%;
+    background: linear-gradient(#f9fdff,#d8f3ff);
+    text-align: center;
+}
+#balloon svg {
+    max-width: 100%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#content2 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    width: 100%;
+    max-width: 100%;
+    background: linear-gradient(#d8f3ff,#ddf4fd);
+}
+#content2row1 .article, #content2row2 .article {
+    margin: 0;
+    padding: 0rem;
+    border: none;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#content2row1 .article > .centered, #content2row2 .article > .centered {
+    opacity: 0;
+}
+#content2row1 .article:hover > img, #content2row2 .article:hover > img {
+    opacity: 0.5;
+    transition: opacity .5s ease-out;
+}
+#content2row1 .article:hover > .centered , #content2row2 .article:hover > .centered {
+    opacity: 1;
+    transition: opacity .5s ease-out;
+}
+#content2row1 .article {
+    background: #ace5ff;
+    margin-bottom: 10px;
+}
+#content2row2 .article:nth-child(1) {
+    background: #46b3e6;
+}
+#content2row2 .article:nth-child(2) {
+    background:#4d80e4;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+#content2row1, #content2row2 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: nowrap;
+}
+#content2row2 {
+    flex-wrap: wrap !important;
+}
+.shadow {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px
+}
+.nextDiv a:hover > i {
+    animation: karetAnimDown 0.5s linear infinite;
+    animation-direction: alternate;
+}

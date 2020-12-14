@@ -1,0 +1,40 @@
+@media screen and (max-width: 1250px) {
+    #navLink span {
+        font-size: 0.75rem !important;
+    }
+    #navbar .navbar-brand{
+        margin-right: 0px;
+    }
+    .navList {
+        position: absolute;
+        right: 0px;
+        height: 92vh; 
+        top: 8vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 75%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .navList li{
+        opacity: 0;
+    }
+    #custom-toggler {
+        display: flex;
+    }
+}
+.nav-active {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    } to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}

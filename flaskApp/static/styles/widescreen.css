@@ -1,0 +1,11 @@
+@media screen and (min-width: 1251px) {
+    .navList {
+        font-weight: normal !important;
+        font-size: 10px !important;
+        padding-left: 0 !important;
+        letter-spacing: normal !important;
+    }
+    #navbarIcon {
+        display: none;
+    }
+}
