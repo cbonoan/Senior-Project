@@ -1,0 +1,42 @@
+o	Eudaimonia (an objective standard of 'happiness,' based on what it means to live a human life well. Also defined as the condition of human flourishing or of living well)
+o	SafeSpace (would be more fitting for a chat-based application)
+o	MoodSpace
+o	MindSanctuary (brought to mind after a long summer of playing Borderlands 3)
+o	Turtle (associated with good health and a long life among Native Americans)
+o	Sunflower (traditional symbol of happiness)
+
+•	Simple navigation with linear pages that can only be accessed from one other page
+•	Maintain consistency throughout entire website (e.g. same rules apply to every portion of the app)
+•	Colors that are gradient and preferably pastel or blue colors
+•	Flowing animations
+•	Definitive direction to next page
+•	Rounded edges for text boxes
+•	Questions followed by a journal entry
+
+We will have five main webpages that the users will traverse:
+
+•	Home
+•	About
+•	Help 
+•	Questions
+•	Journal
+
+Websites Researched:
+https://pypi.org/project/experta/
+https://www.youtube.com/watch?v=T3cOU_ljfr8
+https://www.youtube.com/watch?v=o2WA-A67Bks
+https://www.wysa.io/
+https://github.com/RhinoSecurityLabs
+https://github.com/nccgroup/ScoutSuite
+https://github.com/aquasecurity/cloudsploithttps://www.udemy.com/course/the-web-developer-bootcamp/
+https://www.headspace.com/?utm_source=google&utm_medium=cpc&utm_campaign=1919439341&utm_content=68065219102&utm_term=409649586657&headspace&gclid=Cj0KCQjwreT8BRDTARIsAJLI0KLs9lWfvNAkfHuKUwXhGJIZfMqss4yorsBNiGiizW48-3qHBKcc9ZsaAkUIEALw_wcB
+https://startbootstrap.com/previews/modern-business/
+https://blog.api.rakuten.net/top-sentiment-analysis-api/
+https://undraw.co/illustrations
+https://youtu.be/gWai7fYp9PY
+https://fonts.googleapis.com/css2?family=Open+Sans&display=swap%22%20rel=%22stylesheet
+https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00
+https://www.youtube.com/watch?v=u96rVINbAUI
+https://code.tutsplus.com/tutorials/creating-a-web-app-from-scratch-using-python-flask-and-mysql--cms-22972
+
+
