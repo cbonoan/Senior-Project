@@ -1,0 +1,89 @@
+App Name Ideas:
+o	Eudaimonia (an objective standard of 'happiness,' based on what it means to live a human life well. Also defined as the condition of human flourishing or of living well)
+o	SafeSpace (would be more fitting for a chat-based application)
+o	MoodSpace
+o	MindSanctuary (brought to mind after a long summer of playing Borderlands 3)
+o	Turtle (associated with good health and a long life among Native Americans)
+o	Sunflower (traditional symbol of happiness)
+
+Webpage Requirements:
+•	Simple navigation with linear pages that can only be accessed from one other page
+•	Maintain consistency throughout entire website (e.g. same rules apply to every portion of the app)
+•	Colors that are gradient and preferably pastel or blue colors
+•	Flowing animations
+•	Definitive direction to next page
+•	Rounded edges for text boxes
+•	Questions followed by a journal entry
+
+Main webpages:
+
+Home        DONE
+Meditation  DONE
+About/Help 
+Questions
+Journal
+
+Quiz Ideas: (Make sure to check progress, he may already have most of it completed)
+Interview for ideas <---
+...
+
+Useful links:
+AI 
+https://pypi.org/project/experta/
+https://www.youtube.com/watch?v=T3cOU_ljfr8
+https://blog.api.rakuten.net/top-sentiment-analysis-api/
+
+Possible Recommendations...
+| Articles
+https://www.nhs.uk/conditions/stress-anxiety-depression/mood-self-assessment/
+    5 steps to mental wellbeing
+    Get help for low mood, depression and sadness
+    Get help with anxiety, fear and panic
+    Get help with stress
+    Healthy weight
+    How to cope with money worries
+    Feeling lonely
+    Post-traumatic stress disorder (PTSD)
+    10 tips to beat insomnia
+    Generalised anxiety disorder
+    Mental health apps on the NHS Apps Library
+    Mind, the mental health charity
+    Anxiety UK
+    Samaritans
+    * Note: UK webpages...might want to find a resource from a 'Merica domain*
+| Music
+    ...
+
+SECURITY
+https://github.com/RhinoSecurityLabs
+https://github.com/nccgroup/ScoutSuite
+https://github.com/aquasecurity/cloudsploithttps://www.udemy.com/course/the-web-developer-bootcamp/
+
+FRONT-END DESIGN
+https://www.headspace.com/?utm_source=google&utm_medium=cpc&utm_campaign=1919439341&utm_content=68065219102&utm_term=409649586657&headspace&gclid=Cj0KCQjwreT8BRDTARIsAJLI0KLs9lWfvNAkfHuKUwXhGJIZfMqss4yorsBNiGiizW48-3qHBKcc9ZsaAkUIEALw_wcB
+https://startbootstrap.com/previews/modern-business/
+https://undraw.co/illustrations
+https://youtu.be/gWai7fYp9PY
+https://fonts.googleapis.com/css2?family=Open+Sans&display=swap%22%20rel=%22stylesheet
+https://www.wysa.io/
+
+BACK-END DESIGN
+https://www.youtube.com/watch?v=o2WA-A67Bks
+https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00
+https://www.youtube.com/watch?v=u96rVINbAUI
+https://code.tutsplus.com/tutorials/creating-a-web-app-from-scratch-using-python-flask-and-mysql--cms-22972
+
+RESEARCH
+https://fairygodboss.com/career-topics/emotion-wheel
+https://medlineplus.gov/mentaldisorders.html
+https://www.medicalnewstoday.com/articles/154543
+https://www.mqmentalhealth.org/stress-and-mental-health/?lang=en_us
+https://www.nimh.nih.gov/health/topics/anxiety-disorders/index.shtml
+    
+    -> QUESTIONARIE
+    https://quantifiedself.com/blog/how-is-mood-measured-get-your-mood-on-part-2/
+    https://en.wikipedia.org/wiki/Profile_of_mood_states
+    https://positivepsychology.com/mood-charts-track-your-mood/
+
+
+
