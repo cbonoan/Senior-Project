@@ -10,3 +10,4 @@
     - flask 
     - flask_bcrypt
     - flask_sqlalchemy
+    - flask_wtf
