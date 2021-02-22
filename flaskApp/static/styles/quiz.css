@@ -1,0 +1,23 @@
+#questionBox {
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    margin-top: 100px;
+}
+
+.question {
+    text-align: center;
+}
+    
+.answers {
+
+}
+
+.answers input {
+    margin-right: 20px;
+}
+
+.answers label {
+    font-size: 30px;
+}
+

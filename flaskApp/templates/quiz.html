@@ -1,0 +1,31 @@
+{%extends "layout.html"%}
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/quiz.css') }}">
+<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+{%endblock%}
+{%block content%}
+    <div class="container" id="questionBox">
+        <div class="container question">
+            <h3>How are you feeling today?</h3>
+        </div>
+        <br>
+        <div class="container answers">
+            <input type="radio" name="answer" id="answer1" value="answer1">
+            <label for="answer1">Answer1</label>
+            <br>
+            <input type="radio" name="answer" id="answer2" value="answer2">
+            <label for="answer2">Answer2</label>
+            <br>
+            <input type="radio" name="answer" id="answer3" value="answer3">
+            <label for="answer3">Answer3</label>
+            <br>
+            <input type="radio" name="answer" id="answer4" value="answer4">
+            <label for="answer4">Answer4</label>
+        </div>
+        <div class="navigate">
+        </div>
+    </div>
+{% endblock %}
+{%block scripts%}
+    <script src="{{ url_for('static', filename='scripts/quiz.js') }}"></script>
+{%endblock%}
