@@ -1,5 +1,5 @@
 <!-- Flask uses Jinja 2 template engine, so the reason for this layout file is so we don't have to repeat code but
-rather usea consistent template -->
+rather use a consistent template -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -65,9 +65,17 @@ rather usea consistent template -->
             </svg>
         </span>
     </nav>
+
     {% block content %}{%endblock %}
 
+    <footer>
+        <div class="container">
+            <small class="text-muted"><img src="{{ url_for('static', filename='pictures/MindSanctuary_Icon.png')}}" alt="" width="32" height="32"> © 2020 Mind Sanctuary</small>
+        </div>
+    </footer>
+
     <script src="{{ url_for('static', filename='scripts/general.js')}}"></script>
+    <script src="https://kit.fontawesome.com/7c9a8a72d3.js" crossorigin="anonymous"></script>
     {%block scripts%}{%endblock%}
 </body>
 </html>
