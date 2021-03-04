@@ -1,0 +1,74 @@
+----Good-----
+
+
+
+
+----Average----
+
+Bored: 
+  Indifferent:
+  Apathetic:
+
+Distant: 
+  Reserved: 
+  Independent: 
+
+Content: 
+  Satisfied: 
+  Peaceful: 
+
+Relaxed: 
+  Calm: 
+  Sleepy: 
+
+
+
+
+-----Bad-----
+
+Sad:
+
+  Melancholy:
+    Lonely:
+      Abandonded:
+      Reclusive:
+    Empty:
+      Depressed:
+      Aimless:
+
+  Vulnerable:
+    Powerless:
+      Embarrassed:
+      Inferior:
+    Fragile:
+      Weak:
+      Inadequate:
+
+Anxiety:
+
+  Worried:
+    Hopeless:
+      Worthless:
+      Disillusioned:
+    Nervous:
+      Humilated:
+      Insecure:
+
+  Scared:
+    Fearful:
+      Paranoid:
+      Threatened:
+    Persecuted:
+      Confused:
+      Rejected:
+
+Angry:
+
+
+
+
+Other:
+
+  Physical Pain: 
+  Tired: 
+  Stressed: 
