@@ -9,4 +9,4 @@
 - Required python modules to install:
     - flask 
     - flask_bcrypt
-    - flask_sqlalchemy
+    - flask_mysqldb
