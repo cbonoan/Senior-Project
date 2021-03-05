@@ -9,5 +9,9 @@
 - Required python modules to install:
     - flask 
     - flask_bcrypt
+<<<<<<< HEAD
+    - flask_mysqldb
+=======
     - flask_sqlalchemy
     - flask_wtf
+>>>>>>> 61b86d8718ec8927a33783350ddd77016cc7500d

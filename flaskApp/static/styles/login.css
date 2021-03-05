@@ -29,6 +29,7 @@ form {
     font-size: 18px;
     width: 100%;
     position: relative;
+    box-shadow: rgba(60, 64, 67, 0.3) 3px 3px 2px 0px
 }
 .form-group {
     margin-bottom: 0.5rem !important;

@@ -9,6 +9,10 @@ from flaskApp.models import *
 def home():
     return render_template('index.html')
 
+@app.route("/quiz")
+def quiz():
+    return render_template('quiz.html')
+
 @app.route("/meditation")
 def meditation():
     return render_template('meditation.html')
