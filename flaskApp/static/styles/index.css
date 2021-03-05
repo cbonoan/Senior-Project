@@ -114,6 +114,7 @@
     width: 100%;
     max-width: 100%;
     background: linear-gradient(#d8f3ff,#ddf4fd);
+    padding-bottom: 30px;
 }
 #content2row1 .article, #content2row2 .article {
     margin: 0;
