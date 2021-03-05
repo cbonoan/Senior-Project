@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/login.css') }}">
+{%endblock%}
+{%block content%}
+    <div>
+        
+        <form method="POST" action=""> 
+            <div class="loginImg text-center">
+                <img src="{{ url_for('static', filename='pictures/MindSanctuary_Icon.png') }}" alt="" width="165" height="165">
+                <h4>Welcome Back!</h4>
+                <small class="text-muted">First Time Here? <a href="/register">Sign Up Today!</a></small>
+            </div>
+            <div class="emailSection text-left form-group">
+                <input type="email" name="email" autocomplete="off" placeholder="Email" id="emailField" required>
+                <label for="email" class="labelEmail"></label> 
+                <small class="emailHelp" style="color: rgb(247, 76, 76); display: none;">Please enter a valid email</small>
+            </div>
+            <div class="passwordSection text-left form-group">
+                <input type="password" name="pwd" autocomplete="off" placeholder="Password" id="pwdField" required>
+                <label for="pwd" class="labelPwd"></label>
+                <a href="" class="text-muted">Forgot Password?</a>
+            </div>
+            <div class="rememberMe checkbox text-center">
+                <label for="">
+                    <input type="checkbox" name="" id="">
+                    Remember Me
+                </label>
+            </div>
+            <button class="btn" id="btn" type="submit" style="width: 100%;">Sign In</button>
+        </form>
+    </div>
+{%endblock%}
+{%block scripts%}
+    <script src="{{ url_for('static', filename='scripts/login.js') }}"></script>
+{%endblock%}

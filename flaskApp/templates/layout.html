@@ -1,5 +1,5 @@
 <!-- Flask uses Jinja 2 template engine, so the reason for this layout file is so we don't have to repeat code but
-rather usea consistent template -->
+rather use a consistent template -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -42,16 +42,17 @@ rather usea consistent template -->
         </a>
         <ul class="navList" id="">
             <li class="nav-item active">
-                <a onmouseover="navLinkHover(this)" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/about" id="navLink"><span class="navName">About<i class="fas fa-angle-right" id="navbarIcon"></i></span></a>
+                <a onmouseover="navLinkHover(this, '#42ffc0')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/about" id="navLink"><span class="navName">About</span></a>
             </li>
             <li class="nav-item active">
-                <a onmouseover="navLinkHover(this)" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/articles" id="navLink"><span class="navName">Articles<i class="fas fa-angle-right" id="navbarIcon"></i></span></a>
+                <a onmouseover="navLinkHover(this, '#3bd4b0')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/articles" id="navLink"><span class="navName">Articles</span></a>
             </li>
             <li class="nav-item active">
-                <a onmouseover="navLinkHover(this)" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/meditation" id="navLink"><span class="navName"> Meditation<i class="fas fa-angle-right" id="navbarIcon"></i></span></a>
+                <a onmouseover="navLinkHover(this, '#33b88c')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/meditation" id="navLink"><span class="navName">Meditation</span></a>
             </li>
+            
             <li class="nav-item active">
-                <a onmouseover="navLinkHover(this)" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/login" id="navLink"><span class="navName">Login<i class="fas fa-angle-right" id="navbarIcon"></i></span></a>
+                <a onmouseover="navLinkHover(this, '#2EAD76')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/login" id="navLink"><span class="navName">Login</span></a>
             </li>
         </ul>     
         <span id="custom-toggler">
@@ -64,8 +65,17 @@ rather usea consistent template -->
             </svg>
         </span>
     </nav>
+
     {% block content %}{%endblock %}
 
+    <footer>
+        <div class="container">
+            <small class="text-muted"><img src="{{ url_for('static', filename='pictures/MindSanctuary_Icon.png')}}" alt="" width="32" height="32"> © 2020 Mind Sanctuary</small>
+        </div>
+    </footer>
+
     <script src="{{ url_for('static', filename='scripts/general.js')}}"></script>
+    <script src="https://kit.fontawesome.com/7c9a8a72d3.js" crossorigin="anonymous"></script>
+    {%block scripts%}{%endblock%}
 </body>
 </html>

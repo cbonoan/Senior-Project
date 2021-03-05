@@ -1,5 +1,13 @@
 @import "keyframes.css";
 
+@media screen and (max-width: 765px) {
+    #slogan {
+        display: none !important;
+    }
+    #sloganText {
+        display: block !important;
+    }
+}
 @media screen and (max-width: 1500px) {
     #slogan {
         font-size: 2rem !important;
@@ -36,9 +44,10 @@
     }
 }
 .content {
-    font-family: 'Open Sans', sans-serif;    
+    font-family: 'Open Sans', sans-serif, cursive;    
 }
 #content1{
+    padding-top: 3.5rem;
     width: 100%;
     max-width: 100%;
     background: linear-gradient(rgb(255, 255, 255),#f9fdff);
@@ -51,7 +60,9 @@
     color: black; 
     font-weight: 550; 
     font-size: 3rem; 
-    margin-bottom: 1.5rem;
+}
+#sloganText {
+    display: none;
 }
 #quotes {
     letter-spacing: -1.25px;
@@ -103,6 +114,7 @@
     width: 100%;
     max-width: 100%;
     background: linear-gradient(#d8f3ff,#ddf4fd);
+    padding-bottom: 30px;
 }
 #content2row1 .article, #content2row2 .article {
     margin: 0;
@@ -126,14 +138,14 @@
     transition: opacity .5s ease-out;
 }
 #content2row1 .article {
-    background: #46b3e6;
+    background: #ace5ff;
     margin-bottom: 10px;
 }
 #content2row2 .article:nth-child(1) {
-    background: #7984ee;
+    background: #46b3e6;
 }
 #content2row2 .article:nth-child(2) {
-    background: #d6e4f0;
+    background:#4d80e4;
 }
 img {
     max-width: 100%;
