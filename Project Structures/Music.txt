@@ -7,26 +7,43 @@ be used in the database depending on the selected emotion.
 Happy:
 
    Playful: 
-	Bowtie - Outkast  https://www.youtube.com/watch?v=CpZzOfgZbgY
+	    Bowtie - Outkast  https://www.youtube.com/watch?v=CpZzOfgZbgY
 
    Reminiscent:
-	Loveless - MBV  https://www.youtube.com/watch?v=Dq76B2sDpFA
+	    Loveless - MBV  https://www.youtube.com/watch?v=Dq76B2sDpFA
 
    Hopeful:
-	Postal Service - Give Up https://www.youtube.com/watch?v=0SIJoBxKtPY&list=PLMynaxX_I0z8VkFLhfDIjM7sf67kHG4_k
+	    Postal Service - Give Up https://www.youtube.com/watch?v=0SIJoBxKtPY&list=PLMynaxX_I0z8VkFLhfDIjM7sf67kHG4_k
+
+
 
 
 
 Optimistic:
+
     Temper Trap - Sweet Disposition  https://www.youtube.com/watch?v=W-ENipUB8NI
+    The Shins - Simple Song  https://www.youtube.com/watch?v=GyAJ4V06izg
+
+    Confident:
+      Tiger Army - Outlaw Heart  https://www.youtube.com/watch?v=pkn24yxDoJ4
 
 
-Cheeky:
-    Shoom - Trust  https://www.youtube.com/watch?v=RGVmhrfQqzg
 
 
-Confident:
-    Tiger Army - Outlaw Heart  https://www.youtube.com/watch?v=pkn24yxDoJ4
+
+Excited:
+
+    Cheeky:
+      Shoom - Trust  https://www.youtube.com/watch?v=RGVmhrfQqzgF
+
+    Faded:
+      BROCKHAMPTON - BLEACH  https://www.youtube.com/watch?v=cTMucy4PR2k
+      Aftertheparty - Numb  https://www.youtube.com/watch?v=1Zk_D0zkzAc
+
+
+
+
+Other:
 
 
 
@@ -34,32 +51,34 @@ Confident:
 
 Bored: 
 
-  Indifferent: 
-	Lonely Blue - King Krule  https://www.youtube.com/watch?v=PN9ND1abjD8
-  Apathetic:
+    Indifferent: 
+	    Lonely Blue - King Krule  https://www.youtube.com/watch?v=PN9ND1abjD8
+
+    Apathetic:
 
 
 Distant: 
 
-  Reserved: 
-	Swans - Bring the Sun  https://www.youtube.com/watch?v=JlqBcXh231g
+    Reserved: 
+	    Swans - Bring the Sun  https://www.youtube.com/watch?v=JlqBcXh231g
 
-  Independent: 
-
+    Independent: 
+      Tame Impala - Currents  https://www.youtube.com/watch?v=NMRhx71bGo4&list=PLB5vexwf7WGmr_uOM_0BbRPEOA09Blf5Q
 
 Content: 
 
-  Satisfied: 
+    Satisfied: 
+      Impossible Soul - Sufjan Stevens  https://www.youtube.com/watch?v=8R_3mXZBsuU
 
-  Peaceful: 
-
+    Peaceful: 
+      DIIV - For the Guilty  https://www.youtube.com/watch?v=wUW4oBnD_Gg
 
 Relaxed: 
 
-  Calm: 
-     Broken Social Scene - Forgiveness Rock Record  https://www.youtube.com/watch?v=U7lGxNx7SWQ
+    Calm: 
+      Broken Social Scene - Forgiveness Rock Record  https://www.youtube.com/watch?v=U7lGxNx7SWQ
  
-  Sleepy: 
+    Sleepy: 
 
 
 
@@ -70,36 +89,41 @@ Sad:
   Daniel Blumberg - Minus  https://www.youtube.com/watch?v=tepBgl21g6E
 
 
-  Melancholy:
-	Wilco - Yankee Hotel Foxtrot  https://www.youtube.com/watch?v=3RQcPC8KY_g&list=PLJNbijG2M7OzhPF01zaXVFi3-A5bONW_p
+    Melancholy:
+	      Wilco - Yankee Hotel Foxtrot  https://www.youtube.com/watch?v=3RQcPC8KY_g&list=PLJNbijG2M7OzhPF01zaXVFi3-A5bONW_p
     
-    Lonely:
+      Lonely:
+          Fleet Foxes - Mykonos  https://www.youtube.com/watch?v=4-IgBcEkXSw
+        Abandonded:
 
-      Abandonded:
-
-      Reclusive:
+        Reclusive:
 
 
-    Empty:
+      Empty:
 
-      Depressed:
+        Depressed:
 
-      Aimless:
-	 Iron & Wine - Flighteless Bird, American Mouth  https://www.youtube.com/watch?v=RGVmhrfQqzg
+        Aimless:
+	        Iron & Wine - Flighteless Bird, American Mouth  https://www.youtube.com/watch?v=RGVmhrfQqzg
 
-  Vulnerable:
 
-    Powerless:
 
-      Embarrassed:
+    Vulnerable:
 
-      Inferior:
+      Powerless:
+        Bombay Bicycle Club - Dust on the Ground  https://www.youtube.com/watch?v=3kHstLJil8Y
 
-    Fragile:
+         Embarrassed:
 
-      Weak:
+          Inferior:
 
-      Inadequate:
+      Fragile:
+        Pity Sex - Wind Up  https://www.youtube.com/watch?v=XC3r3Jc44LQ
+
+        Weak:
+          Radiohead - Reckoner  https://www.youtube.com/watch?v=pYHEpDnvVPk
+
+        Inadequate:
 
 
 
@@ -107,7 +131,7 @@ Anxiety:
 
 
   Worried:
-
+      Smashing Pumpkins - Mayonaise  https://www.youtube.com/watch?v=Vbu_K41efvY
     Hopeless:
 
       Worthless:
