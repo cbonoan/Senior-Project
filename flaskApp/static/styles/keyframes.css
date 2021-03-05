@@ -1,0 +1,32 @@
+@keyframes shrugging {
+    from{
+        transform: translate(0px, 0px);
+    }
+    to {
+        transform:  translate(0px, -8.5px);
+    }
+}
+@keyframes breathing {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.15);
+    }
+}
+@keyframes karetAnimRight {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform:  translateX(0.5rem);
+    }
+}
+@keyframes karetAnimDown {
+    from {
+        transform: translateY(0rem);
+    }
+    to {
+        transform: translateY(0.2rem);
+    }
+}
