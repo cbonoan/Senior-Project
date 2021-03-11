@@ -1,0 +1,213 @@
+This text file contains links to recommended articles to 
+be used in the database depending on the selected emotion.
+
+When an emotion has multiple articles, I utilized an arrow (-->) to signify the article that I believed was most fitting.
+
+
+------------------------------ Good -----------------------------------
+
+Happy:
+
+   Playful: 
+	    
+
+   Reminiscent:
+	    
+
+   Hopeful:
+	    
+
+
+
+
+
+Optimistic:
+
+    
+
+    Confident:
+      
+
+
+
+
+
+Excited:
+
+    Cheeky:
+      
+
+    Faded:
+      
+
+
+
+
+Other:
+
+
+
+---------------------------- Average ----------------------------------
+
+Bored: 
+
+    Indifferent: 
+	    
+
+    Apathetic:
+
+
+Distant: 
+
+    Reserved: 
+	    
+
+    Independent: 
+      
+
+Content: 
+
+    Satisfied: 
+      
+
+    Peaceful: 
+      
+
+Relaxed: 
+
+    Calm: 
+      
+ 
+    Sleepy: 
+
+
+
+
+-------------------------------- Bad ------------------------------------
+
+Sad:
+  https://www.gundersenhealth.org/health-wellness/live-happy/healthy-ways-to-deal-with-sadness/
+  
+  Pop-Up Suggestion...
+  Please seek emergency help if you:
+    - Are thinking about suicide
+    - Have attempted suicide
+    You may also visit https://www.samhsa.gov/find-help/national-helpline or call the SAMHSA’s National Helpline, 1-800-662-HELP (4357) or TTY: 1-800-487-4889 for a confidential, free, 24-hour-a-day, 365-day-a-year, information service, in English and Spanish, for individuals and family members facing mental and/or substance use disorders.
+
+
+    Melancholy:
+    https://thedailymind.com/simple-guide-overcoming-melancholy/
+	      
+    
+      Lonely:
+      https://www.psychologytoday.com/us/blog/click-here-happiness/201902/feeling-lonely-discover-18-ways-overcome-loneliness
+          
+        Abandoned:
+        Fear of Abandonment
+        https://www.huffpost.com/entry/how-to-overcome-fear-of-a_b_6988748
+        Overcoming Fear of Abandonment
+        -->https://www.gaiam.com/blogs/discover/how-to-overcome-the-feeling-of-abandonment
+
+        Reclusive:
+        Panic Related Avoidance Behaviors (Might be irrelevant to people without panic related disorders)
+        https://www.verywellmind.com/how-to-reduce-your-panic-related-avoidance-behaviors-2584148
+        How to stop being a loner
+        -->https://socialpronow.com/blog/stop-being-a-loner/
+        The Reclusive Option (Basically, it's okay to be a recluse - NOT sure if we want to advocate this option)
+        https://www.psychologytoday.com/us/blog/how-do-life/201410/the-recluse-option
+
+
+      Empty:
+      https://psychcentral.com/blog/when-you-feel-empty-what-it-means-what-to-do-2#5
+      -->https://www.betterhelp.com/advice/general/i-feel-empty-when-a-lack-of-meaning-is-something-more-serious/
+
+        Depressed:
+        https://www.helpguide.org/articles/depression/depression-symptoms-and-warning-signs.htm
+        -->https://www.healthline.com/health/depression/how-to-fight-depression
+
+        Aimless:
+        https://psychcentral.com/blog/when-you-feel-lost#1
+        https://www.betterself.sg/2019/07/lost-in-life/
+        -->https://www.lifehack.org/articles/communication/12-things-you-should-remember-when-feeling-lost-and-lonely.html
+
+	        
+
+
+
+    Vulnerable: <---
+    https://www.verywellmind.com/fear-of-vulnerability-2671820
+
+
+      Powerless:
+      https://psychcentral.com/blog/how-to-empower-yourself-when-you-feel-powerless-and-helpless#6
+
+         Embarrassed:
+         https://psychcentral.com/blog/how-to-empower-yourself-when-you-feel-powerless-and-helpless#6
+
+
+          Inferior:
+          https://divethru.com/feeling-inferior-a-guide-to-your-emotions/
+          -->https://socialpronow.com/blog/feeling-inferior/
+
+      Fragile:
+
+
+        
+
+        Weak:
+
+          
+
+        Inadequate:
+
+
+
+
+Anxiety:
+
+
+  Worried:
+      
+    Hopeless:
+
+      Worthless:
+
+      Disillusioned:
+
+    Nervous:
+
+      Humilated:
+
+      Insecure:
+
+
+
+  Scared:
+
+    Fearful:
+
+      Paranoid:
+
+      Threatened:
+
+
+    Persecuted:
+
+      Confused:
+
+      Rejected:
+
+
+
+Angry:
+
+
+
+
+Other:
+
+  Physical Pain: 
+
+  Tired: 
+
+  Stressed: 

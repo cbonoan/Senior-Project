@@ -32,7 +32,7 @@ Sad:
 
   Melancholy:
     Lonely:
-      Abandonded:
+      Abandoned:
       Reclusive:
     Empty:
       Depressed:
