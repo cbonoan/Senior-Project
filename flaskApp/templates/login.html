@@ -4,30 +4,41 @@
 {%endblock%}
 {%block content%}
     <div>
-        
-        <form method="POST" action=""> 
+        <form method="POST" action="{ url_for('login') }}"> 
+            {{ form.hidden_tag() }}
             <div class="loginImg text-center">
                 <img src="{{ url_for('static', filename='pictures/MindSanctuary_Icon.png') }}" alt="" width="165" height="165">
                 <h4>Welcome Back!</h4>
                 <small class="text-muted">First Time Here? <a href="/register">Sign Up Today!</a></small>
             </div>
-            <div class="emailSection text-left form-group">
-                <input type="email" name="email" autocomplete="off" placeholder="Email" id="emailField" required>
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="alert alert-{{ category }}">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {%endwith%}
+            <div class="emailSection text-center form-group">
+                {{ form.email(class="text-center", autocomplete="off", placeholder="Email", id="emailField", required="required") }}
                 <label for="email" class="labelEmail"></label> 
                 <small class="emailHelp" style="color: rgb(247, 76, 76); display: none;">Please enter a valid email</small>
             </div>
-            <div class="passwordSection text-left form-group">
-                <input type="password" name="pwd" autocomplete="off" placeholder="Password" id="pwdField" required>
+            <div class="passwordSection text-center form-group" style="margin-bottom: 0;">
+                <i class="fas fa-eye-slash icon"  id="icon" onclick="showPwd()"></i>
+                {{ form.pwd(class="text-center", autocomplete="off", placeholder="Password", id="pwdField", required="required") }}
                 <label for="pwd" class="labelPwd"></label>
-                <a href="" class="text-muted">Forgot Password?</a>
+                
             </div>
+            <a href="" class="text-muted text-center">Forgot Password?</a>
             <div class="rememberMe checkbox text-center">
                 <label for="">
-                    <input type="checkbox" name="" id="">
+                    {{ form.remember(type="checkbox") }}
                     Remember Me
                 </label>
             </div>
-            <button class="btn" id="btn" type="submit" style="width: 100%;">Sign In</button>
+            {{ form.btn(class="btn", id="btn", type="submit", style="width: 100%;") }}
         </form>
     </div>
 {%endblock%}
