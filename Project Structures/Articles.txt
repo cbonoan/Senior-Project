@@ -85,14 +85,14 @@ Relaxed:
 
 -------------------------------- Bad ------------------------------------
 
-Sad:
-  https://www.gundersenhealth.org/health-wellness/live-happy/healthy-ways-to-deal-with-sadness/
-  
-  Pop-Up Suggestion...
+Pop-Up Suggestion...
   Please seek emergency help if you:
     - Are thinking about suicide
     - Have attempted suicide
     You may also visit https://www.samhsa.gov/find-help/national-helpline or call the SAMHSA’s National Helpline, 1-800-662-HELP (4357) or TTY: 1-800-487-4889 for a confidential, free, 24-hour-a-day, 365-day-a-year, information service, in English and Spanish, for individuals and family members facing mental and/or substance use disorders.
+
+Sad:
+  https://www.gundersenhealth.org/health-wellness/live-happy/healthy-ways-to-deal-with-sadness/
 
 
     Melancholy:
@@ -144,37 +144,43 @@ Sad:
          Embarrassed:
          https://psychcentral.com/blog/how-to-empower-yourself-when-you-feel-powerless-and-helpless#6
 
-
           Inferior:
           https://divethru.com/feeling-inferior-a-guide-to-your-emotions/
           -->https://socialpronow.com/blog/feeling-inferior/
 
+
       Fragile:
-
-
-        
+      https://exploringyourmind.com/emotional-fragility-keys-understanding-ego/
 
         Weak:
-
+        https://www.psychologytoday.com/us/blog/emotional-mastery/201903/how-do-you-develop-emotionally-strong-person
           
-
         Inadequate:
+        https://www.quickanddirtytips.com/health-fitness/mental-health/how-to-stop-feeling-inadequate
+
 
 
 
 
 Anxiety:
+https://www.webmd.com/mental-health/features/ways-to-reduce-anxiety
 
 
   Worried:
+  https://www.helpguide.org/articles/anxiety/how-to-stop-worrying.htm
       
     Hopeless:
+    https://www.verywellmind.com/9-things-to-do-if-you-feel-hopeless-5081877
 
       Worthless:
+      https://www.verywellmind.com/things-to-do-if-you-are-feeling-worthless-5087740
 
       Disillusioned:
+      https://www.psychologytoday.com/us/blog/the-couch/201503/disappointed-disillusioned-8-ways-deal-letdown
+
 
     Nervous:
+    
 
       Humilated:
 
