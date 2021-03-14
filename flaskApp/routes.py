@@ -23,24 +23,28 @@ def about():
 
 @app.route("/register", methods=['GET','POST'])
 def register():
-    if request.method == 'POST':
-        register = request.form
-        firstName = register['firstName']
-        lastName = register['lastName']
-        email = register['email']
-        password = register['pwd']
-
-        user = User(firstName=firstName, lastName=lastName, email=email, password=password)
-        db.session.add(user)
-        db.session.commit()
-
-        return redirect(url_for('login'))
-    return render_template('register.html', title='Register')
+    form = RegistrationForm()
+    if request.method == 'POST' and form.validate_on_submit():
+        user = None
+        try:
+            user = User(form.firstName.data, form.lastName.data, form.userName.data, form.email.data, form.pwd.data)
+        except TypeError as e: 
+            print(e)
+        
+        if user:
+            flash(f'Account created for {form.userName.data}!', 'success')
+            return redirect(url_for('login'))
+        elif user is None:
+            flash(f'Error creating account for {form.userName.data}.', 'danger')
+            return redirect(url_for('register'))
+    
+    return render_template('register.html', title='Register', form=form)
 
 @app.route("/login", methods=['GET','POST'])
 def login():
+    form = LoginForm()
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
-    return render_template('login.html', title='Login')
+    return render_template('login.html', title='Login', form=form)
 
