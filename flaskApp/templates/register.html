@@ -47,7 +47,7 @@
                     {{ form.email(class="labelEmail is-invalid text-center", autocomplete="off", placeholder="Email", id="emailField") }}
                     <label for="email" class="labelEmail"></label> 
                     <div class="invalid-feedback">
-                        {% for error in form.username.errors %}
+                        {% for error in form.email.errors %}
                             <span>{{ error }}</span>
                         {% endfor %}
                     </div>

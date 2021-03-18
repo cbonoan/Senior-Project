@@ -37,6 +37,15 @@
                 </svg>    
             </div>
             <div class="col-lg-8 col-md-6 col-sm-12" id="quotes">
+                {% with messages = get_flashed_messages(with_categories=true) %}
+                    {% if messages %}
+                        {% for category, message in messages %}
+                            <div class=" text-center alert alert-{{ category }}" id="welcomeMsg">
+                                {{ message }}
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                {%endwith%}
                 <h1 class="" id="slogan">Be At Peace</h1>
                 <div class="blockquote" id="randQuote">
                     <p style="font-size: 1rem; color: #4b4c4d;">Make your mental health a priority.</p>
