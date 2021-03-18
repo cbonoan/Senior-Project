@@ -46,12 +46,7 @@ def login():
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
-<<<<<<< HEAD
     return render_template('login.html', title='Login')
 @app.route("/meditation")
 def meditation():
     return render_template('meditation.html')
-=======
-    return render_template('login.html', title='Login', form=form)
-
->>>>>>> 2945e59 (Finished login/registration (frontend and backend) as well as added some new functionality for viewing password -Charles)

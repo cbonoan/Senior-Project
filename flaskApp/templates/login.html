@@ -4,7 +4,7 @@
 {%endblock%}
 {%block content%}
     <div>
-        <form method="POST" action="{ url_for('login') }}"> 
+        <form method="POST" action="{{ url_for('login') }}"> 
             {{ form.hidden_tag() }}
             <div class="loginImg text-center">
                 <img src="{{ url_for('static', filename='pictures/MindSanctuary_Icon.png') }}" alt="" width="165" height="165">
