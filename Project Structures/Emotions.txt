@@ -1,28 +1,80 @@
 -------------------------------- Good ----------------------------------
 
+Happy:
+
+  Joyful:
+    Reminiscent:
+      Nostalgic
+      Grateful
+    Loving:
+      Enamored
+      Sensitive
+
+  Amused:
+    Creative:
+      Artistic
+      Intimate
+    Humourous:
+      Desirous
+      Trusting
+    
+
+Optimistic:
+
+  Inspired:
+    Enthusiastic:
+      Passionate
+      Driven
+    Eager:
+      Hopeful
+      Courageous
+  
+  Confident:
+    Self-Assured:
+      Valued
+      Accepted
+    Successful:
+      Proud
+      Accomplished
 
 
+Excited:
+
+  Recreational:
+    Playful:
+      Curious
+      Energetic
+    Adventurous:
+      Inquisitive
+      Hyped
+
+  Stimulated:
+    Longing:
+      Tactile
+      Aroused
+    Loved:
+      Nurtured
+      Thankful
+    
 
 
-
------------------------------- Average ---------------------------------
+------------------------------ Average ----------------------------------
 
 Bored: 
-  Indifferent:
-  Apathetic:
+  Indifferent
+  Apathetic
 
 Distant: 
-  Reserved: 
-  Independent: 
+  Reserved
+  Independent 
 
 Content: 
-  Satisfied: 
-  Peaceful: 
+  Satisfied
+  Peaceful
 
 Relaxed: 
-  Calm: 
-  Sleepy: 
-
+  Calm
+  Sleepy
 
 
 
@@ -32,45 +84,54 @@ Sad:
 
   Melancholy:
     Lonely:
-      Abandoned:
-      Reclusive:
-    Empty:
-      Depressed:
-      Aimless:
+      Abandonded
+      Reclusive
+    Depressed:
+      Stressed
+      Tired
 
   Vulnerable:
     Powerless:
-      Embarrassed:
-      Inferior:
+      Embarrassed
+      Inferior
     Fragile:
-      Weak:
-      Inadequate:
+      Weak
+      Inadequate
 
-Anxiety:
+
+Anxious:
 
   Worried:
     Hopeless:
-      Worthless:
-      Disillusioned:
+      Worthless
+      Disillusioned
     Nervous:
-      Humilated:
-      Insecure:
+      Humilated
+      Insecure
 
   Scared:
     Fearful:
-      Paranoid:
-      Threatened:
+      Paranoid
+      Threatened
     Persecuted:
-      Confused:
-      Rejected:
+      Confused
+      Rejected
+
 
 Angry:
 
+  Frustrated:
+    Annoyed:
+      Bitter
+      Jealous
+    Disrespected:
+      Ridiculed
+      Let Down
 
-
-
-Other:
-
-  Physical Pain: 
-  Tired: 
-  Stressed: 
+  Aggressive:
+    Hostile:
+      Skeptical
+      Distant
+    Provoked:
+      Violated
+      Betrayed

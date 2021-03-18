@@ -1,0 +1,149 @@
+This text file contains links to recommended articles to 
+be used in the database depending on the selected emotion.
+
+When an emotion has multiple articles, I utilized an arrow (-->) to signify the article that I believed was most fitting.
+
+
+-------------------------------- Good ----------------------------------
+
+Happy:
+
+  Joyful:
+    Reminiscent:
+      Nostalgic:
+      Grateful:
+    Loving:
+      Enamored:
+      Sensitive:
+
+  Amused:
+    Creative:
+      Artistic:
+      Intimate:
+    Humourous:
+      Desirous:
+      Trusting:
+    
+
+Optimistic:
+
+  Inspired:
+    Enthusiastic:
+      Passionate:
+      Driven:
+    Eager:
+      Hopeful:
+      Courageous:
+  
+  Confident:
+    Self-Assured:
+      Valued:
+      Accepted:
+    Successful:
+      Proud:
+      Accomplished:
+
+
+Excited:
+
+  Recreational:
+    Playful:
+      Curious:
+      Energetic:
+    Adventurous:
+      Inquisitive:
+      Hyped:
+
+  Stimulated:
+    Longing:
+      Tactile:
+      Aroused:
+    Loved:
+      Nurtured:
+      Thankful:
+    
+
+
+------------------------------ Average ----------------------------------
+
+Bored: 
+  Indifferent:
+  Apathetic:
+
+Distant: 
+  Reserved: 
+  Independent: 
+
+Content: 
+  Satisfied: 
+  Peaceful: 
+
+Relaxed: 
+  Calm: 
+  Sleepy: 
+
+
+
+--------------------------------- Bad -------------------------------------
+
+Pop-Up Suggestion...
+  Please seek emergency help if you:
+    - Are thinking about suicide
+    - Have attempted suicide
+    You may also visit https://www.samhsa.gov/find-help/national-helpline or call the SAMHSA’s National Helpline, 1-800-662-HELP (4357) or TTY: 1-800-487-4889 for a confidential, free, 24-hour-a-day, 365-day-a-year, information service, in English and Spanish, for individuals and family members facing mental and/or substance use disorders.
+
+Sad:
+
+  Melancholy:
+    Lonely:
+      Abandonded:
+      Reclusive:
+    Depressed:
+      Stressed:
+      Tired:
+
+  Vulnerable:
+    Powerless:
+      Embarrassed:
+      Inferior:
+    Fragile:
+      Weak:
+      Inadequate:
+
+
+Anxious:
+
+  Worried:
+    Hopeless:
+      Worthless:
+      Disillusioned:
+    Nervous:
+      Humilated:
+      Insecure:
+
+  Scared:
+    Fearful:
+      Paranoid:
+      Threatened:
+    Persecuted:
+      Confused:
+      Rejected:
+
+
+Angry:
+
+  Frustrated:
+    Annoyed:
+      Bitter:
+      Jealous:
+    Disrespected:
+      Ridiculed:
+      Let Down:
+
+  Aggressive:
+    Hostile:
+      Skeptical:
+      Distant:
+    Provoked:
+      Violated:
+      Betrayed:
