@@ -8,6 +8,17 @@
     .loginImg h2 {
         font-size: 14px;
     }
+    .emailSection label, .passwordSection label, .nameSection label {
+        width: 100% !important;
+    }
+    .icon {
+        margin-left: 350px !important;
+    }
+}
+@media screen and (max-width: 415px) {
+    .icon {
+        margin-left: 325px !important;
+    }
 }
 #body {
     height: 60vh;
@@ -21,8 +32,16 @@
 .loginImg {
     padding-bottom: 0.75rem;
 }
+.alert {
+    padding: 15px !important;
+}
+.icon {
+    cursor: pointer;
+    position: absolute;
+    margin-left: 300px;
+}
 form {
-    margin-top: 10rem;
+    margin-top: 13rem;
     padding: 1rem 1rem;
     background: white;
     border-radius: 25px;
@@ -34,6 +53,9 @@ form {
 .form-group {
     margin-bottom: 0.5rem !important;
 }
+input:focus::placeholder {
+    color: transparent;
+}
 .emailSection input, .passwordSection input, .nameSection input {
     width: 100%;
     height: 100%;
@@ -43,7 +65,7 @@ form {
 }
 .emailSection label, .passwordSection label, .nameSection label {
     left: 0;
-    width: 100%;
+    width: 70%;
     height: 50%;
     pointer-events: none;
     border-bottom: 2px solid #616570;
