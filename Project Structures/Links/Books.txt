@@ -37,6 +37,7 @@ Optimistic:
       Accepted:
     Successful:
       Proud:
+        https://www.amazon.com/Proud-Fight-Unlikely-American-Dream/dp/0316518964
       Accomplished:
 
 
@@ -54,7 +55,9 @@ Excited:
     Longing:
       Tactile:
       Aroused:
+        https://www.amazon.com/Aroused-History-Hormones-Control-Everything/dp/0393239608
     Loved:
+      https://www.amazon.com/Feeling-Loved-Nurturing-Meaningful-Connections/dp/1941631479
       Nurtured:
       Thankful:
     
