@@ -28,6 +28,7 @@ Optimistic:
       Driven:
     Eager:
       Hopeful:
+        https://www.amazon.com/Hope-Dark-Untold-Histories-Possibilities/dp/1608465764
       Courageous:
   
   Confident:
