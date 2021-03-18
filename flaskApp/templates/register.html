@@ -5,35 +5,80 @@
 
 {%block content%}
     <div>
-        <form method="POST" action="" style="margin-top: 12rem;"> 
+        <form method="POST" action="{{ url_for('register') }}" style="width: 450px;"> 
+            {{ form.hidden_tag() }}
             <div class="loginImg text-center">
                 <img src="{{ url_for('static', filename='pictures/MindSanctuary_Icon.png') }}" alt="" width="165" height="165">
                 <h4>Sign Up</h4>
                 <small class="text-muted">Already Signed Up? <a href="/login">Log In Here!</a></small>
             </div>
-            <div  class="nameSection text-left form-group">
-                <input type="text" name="firstName" autocomplete="off" placeholder="First Name" id="nameField" required>
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="alert alert-{{ category }}">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {%endwith%}
+            <div  class="nameSection text-center form-group">
+                {{ form.firstName(class="text-center", id="nameField", autocomplete="off", placeholder="First Name") }}
                 <label for="firstName" class="labelName"></label> 
 
-                <input type="text" name="lastName" autocomplete="off" placeholder="Last Name" id="nameField" required>
+                {{ form.lastName(class="text-center", autocomplete="off", placeholder="Last Name", id="nameField") }}
                 <label for="lastName" class="labelName"></label> 
-            </div>
-            <div class="emailSection text-left form-group">
-                <input type="email" name="email" autocomplete="off" placeholder="Email" id="emailField" required>
-                <label for="email" class="labelEmail"></label> 
-                <small class="emailHelp" style="color: rgb(247, 76, 76); display: none;">Please enter a valid email</small>
-            </div>
-            <div class="passwordSection text-left form-group">
-                <input type="password" name="pwd" autocomplete="off" placeholder="Password" id="pwdField" required>
-                <label for="pwd" class="labelPwd"></label>
 
-                <!-- <input type="password" name="confirmpwd" autocomplete="off" placeholder="Confirm Password" id="pwdField" required>
-                <label for="confirmpwd" class="labelPwd"></label> -->
+                {% if form.userName.errors %}
+                    {{ form.userName(class="labelName is-invalid text-center", autocomplete="off", placeholder="Username", id="nameField") }}
+                    <label for="userName" class="labelName"></label> 
+                    <div class="invalid-feedback">
+                        {% for error in form.userName.errors %}
+                            <span>{{ error }}</span>
+                        {% endfor %}
+                    </div>
+                {% else %}
+                     {{ form.userName(class="labelName text-center", autocomplete="off", placeholder="Username", id="nameField") }}
+                    <label for="userName" class="labelName"></label> 
+                {% endif %}
+            
             </div>
-            <button class="btn" id="btn" type="submit" style="width: 100%;">Create Account</button>
+            <div class="emailSection text-center form-group">
+                {% if form.email.errors %}
+                    {{ form.email(class="labelEmail is-invalid text-center", autocomplete="off", placeholder="Email", id="emailField") }}
+                    <label for="email" class="labelEmail"></label> 
+                    <div class="invalid-feedback">
+                        {% for error in form.email.errors %}
+                            <span>{{ error }}</span>
+                        {% endfor %}
+                    </div>
+                {% else %}
+                     {{ form.email(class="labelEmail text-center", autocomplete="off", placeholder="Email", id="emailField") }}
+                    <label for="email" class="labelEmail"></label> 
+                {% endif %}
+            </div>
+            <div class="passwordSection text-center form-group">
+                <i class="fas fa-eye-slash icon"  id="icon" onclick="showPwd()"></i>
+                {% if form.pwd.errors %}
+                    {{ form.pwd(class="labelPwd is-invalid text-center", autocomplete="off", placeholder="Password", id="pwdField") }}
+                    <label for="pwd" class="labelPwd"></label> 
+                    <div class="invalid-feedback">
+                        {% for error in form.username.errors %}
+                            <span>{{ error }}</span>
+                        {% endfor %}
+                    </div>
+                {% else %}
+                     {{ form.pwd(class="labelPwd text-center", autocomplete="off", placeholder="Password", id="pwdField") }}
+                    <label for="pwd" class="labelPwd"></label> 
+                {% endif %}
+            </div>
+            {{ form.submit(class="btn", id="btn", type="submit", style="width: 70%;") }}
         </form>
     </div>
+
+    
 {%endblock%}
+
+
 
 {%block scripts%}
     <script src="{{ url_for('static', filename='scripts/login.js') }}"></script>

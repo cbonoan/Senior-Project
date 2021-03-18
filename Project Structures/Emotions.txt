@@ -1,0 +1,137 @@
+-------------------------------- Good ----------------------------------
+
+Happy:
+
+  Joyful:
+    Reminiscent:
+      Nostalgic
+      Grateful
+    Loving:
+      Enamored
+      Sensitive
+
+  Amused:
+    Creative:
+      Artistic
+      Intimate
+    Humourous:
+      Desirous
+      Trusting
+    
+
+Optimistic:
+
+  Inspired:
+    Enthusiastic:
+      Passionate
+      Driven
+    Eager:
+      Hopeful
+      Courageous
+  
+  Confident:
+    Self-Assured:
+      Valued
+      Accepted
+    Successful:
+      Proud
+      Accomplished
+
+
+Excited:
+
+  Recreational:
+    Playful:
+      Curious
+      Energetic
+    Adventurous:
+      Inquisitive
+      Hyped
+
+  Stimulated:
+    Longing:
+      Tactile
+      Aroused
+    Loved:
+      Nurtured
+      Thankful
+    
+
+
+------------------------------ Average ----------------------------------
+
+Bored: 
+  Indifferent
+  Apathetic
+
+Distant: 
+  Reserved
+  Independent 
+
+Content: 
+  Satisfied
+  Peaceful
+
+Relaxed: 
+  Calm
+  Sleepy
+
+
+
+--------------------------------- Bad -------------------------------------
+
+Sad:
+
+  Melancholy:
+    Lonely:
+      Abandonded
+      Reclusive
+    Depressed:
+      Stressed
+      Tired
+
+  Vulnerable:
+    Powerless:
+      Embarrassed
+      Inferior
+    Fragile:
+      Weak
+      Inadequate
+
+
+Anxious:
+
+  Worried:
+    Hopeless:
+      Worthless
+      Disillusioned
+    Nervous:
+      Humilated
+      Insecure
+
+  Scared:
+    Fearful:
+      Paranoid
+      Threatened
+    Persecuted:
+      Confused
+      Rejected
+
+
+Angry:
+
+  Frustrated:
+    Annoyed:
+      Bitter
+      Jealous
+    Disrespected:
+      Ridiculed
+      Let Down
+
+  Aggressive:
+    Hostile:
+      Skeptical
+      Distant
+    Provoked:
+      Violated
+      Betrayed
