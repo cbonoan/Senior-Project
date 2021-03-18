@@ -1,3 +1,6 @@
+PLEASE NOTE: Some emotions have multiple article links. The ones that 
+I deemed most fitting have been symbolized with the suceeding arrow "-->"
+
 -------------------------------- Good ----------------------------------
 
 Happy:
@@ -61,20 +64,45 @@ Excited:
 ------------------------------ Average ----------------------------------
 
 Bored: 
-  Indifferent:
-  Apathetic:
+  https://www.lifehack.org/articles/featured/10-ways-to-conquer-boredom-and-feeling-too-busy.html
 
-Distant: 
+  
+  Indifferent:
+    -->https://blog.heartmanity.com/empathy-is-the-antidote-for-apathy-and-indifference
+    https://gratiaplenacounseling.org/the-psychology-of-indifference/
+
+  Apathetic:
+    https://www.psychologytoday.com/us/blog/evolution-the-self/201604/the-curse-apathy-sources-and-solutions
+
+Distant: (Used the same link for the "Bad" emotion "Distant")
+  https://www.healthline.com/health/mental-health/emotional-detachment
+  
   Reserved: 
+    https://liveboldandbloom.com/11/personality-types/reserved-personality
+  
   Independent: 
+    https://www.melyssagriffin.com/be-more-independent/
 
 Content: 
+  -->https://www.greatbigminds.com/are-you-feeling-content-5-signs-you-are-truly-content-with-life/
+  https://www.womanandhome.com/us/health-and-wellbeing/10-signs-that-youre-feeling-content-100798/
+  
   Satisfied: 
+    https://time.com/25208/how-to-be-more-satisfied-with-your-life-5-steps-proven-by-research/
+
   Peaceful: 
+    https://divethru.com/feeling-peaceful-a-guide-to-your-emotions/
+    -->https://www.psychologytoday.com/us/blog/your-wise-brain/201611/what-is-your-sense-peace
 
 Relaxed: 
+  How to Become More Relaxed
+  https://www.verywellmind.com/how-to-become-relaxed-3145059
+  
   Calm: 
+    https://www.alustforlife.com/tools/mental-health/how-to-embrace-and-inhabit-the-calmness-habit
+  
   Sleepy: 
+    https://www.verywellhealth.com/reasons-why-you-feel-sleepy-3014818
 
 
 
@@ -109,7 +137,10 @@ Sad:
       -->https://www.healthline.com/health/depression/how-to-fight-depression
 
       Stressed:
+        https://www.verywellmind.com/ways-to-calm-down-quickly-when-overwhelmed-3145197
+      
       Tired:
+        https://www.healthline.com/nutrition/10-reasons-you-are-tired
 
   Vulnerable:
     https://www.verywellmind.com/fear-of-vulnerability-2671820
