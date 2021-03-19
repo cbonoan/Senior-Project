@@ -1,6 +1,7 @@
 PLEASE NOTE: Some emotions have multiple article links. The ones that 
 I deemed most fitting have been symbolized with the suceeding arrow "-->"
 
+
 -------------------------------- Good ----------------------------------
 
 Happy:
@@ -355,7 +356,7 @@ Angry:
       Skeptical:
         https://www.theschooloflife.com/thebookoflife/emotional-scepticism/
     
-      Distant:
+      Confrontational:
         https://www.healthline.com/health/mental-health/emotional-detachment
     
     Provoked:
