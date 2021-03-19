@@ -21,21 +21,6 @@ class RegistrationForm(FlaskForm):
         if user:
             raise ValidationError('That email is already in use. Please choose a different email or reset your password.')
 
-    # def validate_email(self, email):
-    #     # Since our email field needs to be unique for each user
-    #     # we will need to check if the email exists in our db
-    #     cur = db.connection.cursor()
-    #     sql = """ 
-    #         SELECT * 
-    #         FROM user
-    #         WHERE email="{}"
-    #         """.format(email.data)
-    #     cur.execute(sql)
-    #     rows = cur.fetchall()
-
-    #     if rows != 0:
-    #         raise ValidationError('Email has been taken! Please choose another one or reset your password.')
-
 class LoginForm(FlaskForm):
     email = EmailField('email', 
                         validators=[DataRequired(), Email()])
