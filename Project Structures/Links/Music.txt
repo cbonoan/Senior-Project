@@ -218,7 +218,7 @@ Angry:
   Aggressive:
     Hostile:
       Skeptical:
-      Distant:
+      Confrontational:
     Provoked:
       Violated:
       Betrayed:
