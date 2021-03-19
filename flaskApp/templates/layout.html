@@ -51,9 +51,15 @@ rather use a consistent template -->
                 <a onmouseover="navLinkHover(this, '#33b88c')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/meditation" id="navLink"><span class="navName">Meditation</span></a>
             </li>
             
-            <li class="nav-item active">
-                <a onmouseover="navLinkHover(this, '#2EAD76')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/login" id="navLink"><span class="navName">Login</span></a>
-            </li>
+            {% if current_user.is_authenticated %}
+                <li class="nav-item active">
+                    <a onmouseover="navLinkHover(this, '#2EAD76')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/logout" id="navLink"><span class="navName">Logout</span></a>
+                </li>
+            {% else %}
+                <li class="nav-item active">
+                    <a onmouseover="navLinkHover(this, '#2EAD76')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/login" id="navLink"><span class="navName">Login</span></a>
+                </li>
+            {% endif %}
         </ul>     
         <span id="custom-toggler">
             <svg width="25" height="40" viewBox="0 0 50 40" fill="none" xmlns="http://www.w3.org/2000/svg">
