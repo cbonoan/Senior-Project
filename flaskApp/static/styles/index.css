@@ -42,6 +42,12 @@
     .nextDiv {
         display: none;
     }
+    #welcomeMsg {
+        width: 100% !important;
+    }
+}
+#welcomeMsg {
+    width: 50%;
 }
 .content {
     font-family: 'Open Sans', sans-serif, cursive;    
