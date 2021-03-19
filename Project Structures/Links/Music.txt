@@ -10,71 +10,117 @@ Emotion:
 Happy:
 
   Joyful:
+
     Reminiscent:
         My Bloody Valentine - Loveless  https://www.youtube.com/watch?v=Dq76B2sDpFA
+
       Nostalgic:
+        Red Hot Chili Peppers - Scar Tissue  https://www.youtube.com/watch?v=h9YyazDg9YM
+
       Grateful:
+
     Loving:
+
       Enamored:
+        Yuck - Milkshake  https://www.youtube.com/watch?v=v1XZjRtDmLg
       Sensitive:
+        Cigarettes After Sex - Flash  https://www.youtube.com/watch?v=nrWC_z6l13w
 
   Amused:
+
     Creative:
+      Animal Collective - Summertime Clothes  https://www.youtube.com/watch?v=BAyADMSppaw
+
       Artistic:
+
       Intimate:
+
     Humourous:
+
       Desirous:
+
       Trusting:
+
     
 
 Optimistic:
 
   Inspired:
+
     Enthusiastic:
+
       Passionate:
         Postal Service - Give Up https://www.youtube.com/watch?v=0SIJoBxKtPY&list=PLMynaxX_I0z8VkFLhfDIjM7sf67kHG4_k
 
       Driven:
         Deer Tick - Long Time  https://www.youtube.com/watch?v=yzfkApXfLpI
+
     Eager:
+
       Hopeful:
         Temper Trap - Sweet Disposition  https://www.youtube.com/watch?v=W-ENipUB8NI
+
       Courageous:
         Fleet Foxes - Young Man's Game  https://www.youtube.com/watch?v=OHsGsMD9wW0
   
   Confident:
+      Dion - The Wanderer  https://www.youtube.com/watch?v=SbYa7NBYyRc
+
     Self-Assured:
         The Shins - Simple Song  https://www.youtube.com/watch?v=GyAJ4V06izg
+
       Valued:
+        The Black Keys - Everlasting Light  https://www.youtube.com/watch?v=oE2U01cUHE0
+
       Accepted:
+
     Successful:
+
       Proud:
         Tiger Army - Outlaw Heart  https://www.youtube.com/watch?v=pkn24yxDoJ4
+
       Accomplished:
+        Elzhi - Smoke and Mirrors  https://www.youtube.com/watch?v=wUM3ybKyWuc
 
 
 Excited:
 
   Recreational:
+      Post Malone - Psycho  https://www.youtube.com/watch?v=MGYJuETPQEg
+
     Playful:
         Outkast - Bowtie  https://www.youtube.com/watch?v=CpZzOfgZbgY
+
       Curious:
+
       Energetic:
+        Gramatik - Native Son Prequel  https://www.youtube.com/watch?v=Kv9FdAMRQ88
+
     Adventurous:
+        BROCKHAMPTON - BOOGIE  https://www.youtube.com/watch?v=GtCa-f7X2T8
+        Cornelius - Gum  https://www.youtube.com/watch?v=nbqMqZBxH9w
+
       Faded:
         Aftertheparty - Numb  https://www.youtube.com/watch?v=1Zk_D0zkzAc
         BROCKHAMPTON - BLEACH  https://www.youtube.com/watch?v=cTMucy4PR2k
+
       Hyped:
         The 1975 - Love it if we made it  https://www.youtube.com/watch?v=GRhUVvUvPuU
 
   Stimulated:
+
     Longing:
+
       Tactile:
         Kendrick Lamar - LOVE  https://www.youtube.com/watch?v=XKkV2j9DbIQ
+
       Aroused:
-        Trust - Shoom  https://www.youtube.com/watch?v=RGVmhrfQqzgF
+        Trust - Sulk  https://www.youtube.com/watch?v=8tc1xj7Nblc
+
     Loved:
+
       Nurtured:
+
       Thankful:
     
 
@@ -86,6 +132,7 @@ Bored:
 
     Indifferent: 
 	      King Krule - Lonely Blue   https://www.youtube.com/watch?v=PN9ND1abjD8
+        Weezer - Say it Ain't so  https://www.youtube.com/watch?v=zo-x4PU8S6g
 
     Apathetic:
         Lustre - Let go like leaves of Fall  https://www.youtube.com/watch?v=ZCeNHJ8mJI8
@@ -132,18 +179,18 @@ Sad:
           Fleet Foxes - Mykonos  https://www.youtube.com/watch?v=4-IgBcEkXSw
 
         Abandonded:
-
+          Slint - Spiderland  https://www.youtube.com/watch?v=FAApF-FDkoY
         Reclusive:
-
+          Daughters - You Won't Get What You Want  https://www.youtube.com/watch?v=6BDLHcbjzts
 
       Depressed:
+        WU LYF - Go Tell Fire to the Mountain  https://www.youtube.com/watch?v=ZmEaC4297SM
 
         Stressed:
           Iron & Wine - Flighteless Bird, American Mouth  https://www.youtube.com/watch?v=RGVmhrfQqzg
 
         Tired:
           Wolves in the Throne Room - Sleeping Golden Storm  https://www.youtube.com/watch?v=4d1zsIfu93o
-
 
 
     Vulnerable:
@@ -172,6 +219,7 @@ Anxious:
   Worried:
       Smashing Pumpkins - Mayonaise  https://www.youtube.com/watch?v=Vbu_K41efvY
     Hopeless:
+      Led Zeppelin - In the Light  https://www.youtube.com/watch?v=pNo1nS_JV5k
 
       Worthless:
 
@@ -191,14 +239,14 @@ Anxious:
       Slightly Stoopid - Collie Man  https://www.youtube.com/watch?v=TLcmtBA-W_s
 
     Fearful:
-       
+       Beach House - Lemon Glow  https://www.youtube.com/watch?v=08qd-vsHbaY
       Paranoid:
-
+       Joe Satriani - Just Look Up  https://www.youtube.com/watch?v=sT5GiEJB5Cg
       Threatened:
 
 
     Persecuted:
-
+        Stevie Ray Vaughan - Tin Pan Alley  https://www.youtube.com/watch?v=oydj5H9C-no
       Confused:
 
       Rejected:
@@ -206,19 +254,33 @@ Anxious:
 
 
 Angry:
+    Chastity - Suffer  https://www.youtube.com/watch?v=7QmlS4n-2xo
 
   Frustrated:
+    Sonic Youth - Daydream Nation  https://www.youtube.com/watch?v=PVwJMOtfJbU
+
     Annoyed:
+      Fleet Foxes - A Long Way Past the Past  https://www.youtube.com/watch?v=fTS2mos6kng
+
       Bitter:
+        HIM - Killing Loneliness  https://www.youtube.com/watch?v=iZoeZrUR_7k
       Jealous:
+
     Disrespected:
+      James Gang - Walk Away  https://www.youtube.com/watch?v=34abRUUeslw
+
       Ridiculed:
+
       Let Down:
 
   Aggressive:
+
     Hostile:
+        Nujabes - Peaceland  https://www.youtube.com/watch?v=HZfduWjapnU
+
       Skeptical:
       Confrontational:
     Provoked:
+
       Violated:
       Betrayed:
