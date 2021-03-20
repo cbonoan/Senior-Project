@@ -79,16 +79,29 @@ Optimistic:
         https://www.amazon.com/Daring-Greatly-Courage-Vulnerable-Transforms/dp/1592408419
   
   Confident:
+    https://www.amazon.com/You-Are-Badass%C2%AE-Doubting-Greatness/dp/0762447699
+
     Self-Assured:
+      https://www.amazon.com/ITS-ALL-YOUR-HEAD-Russ/dp/0062962434/ref=asc_df_0062962434/?tag=hyprod-20&linkCode=df0&hvadid=385655114864&hvpos=&hvnetw=g&hvrand=2348092321433689599&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031715&hvtargid=pla-839085092853&psc=1&tag=&ref=&adgrpid=78303888906&hvpone=&hvptwo=&hvadid=385655114864&hvpos=&hvnetw=g&hvrand=2348092321433689599&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031715&hvtargid=pla-839085092853
+
       Valued:
+        https://www.amazon.com/Power-Moments-Certain-Experiences-Extraordinary/dp/1501147765/ref=asc_df_1501147765/?tag=hyprod-20&linkCode=df0&hvadid=312049124368&hvpos=&hvnetw=g&hvrand=5103032112712090340&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031715&hvtargid=pla-402795615304&psc=1&tag=&ref=&adgrpid=61851652213&hvpone=&hvptwo=&hvadid=312049124368&hvpos=&hvnetw=g&hvrand=5103032112712090340&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031715&hvtargid=pla-402795615304
+        -->https://www.amazon.com/Value-You-Living-Joyfully-Through-ebook/dp/B076S4VJXZ
+      
       Accepted:
+        https://www.amazon.com/Gifts-Acceptance-Embracing-People-Things/dp/0982893051
+    
     Successful:
+      https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034
+      
       Proud:
         https://www.amazon.com/Proud-Fight-Unlikely-American-Dream/dp/0316518964
+      
       Accomplished:
+        https://www.amazon.com/Human-Accomplishment-Pursuit-Excellence-Sciences/dp/0060929642#detailBullets_feature_div
 
 
-Excited:
+Excited: <<<
 
   Recreational:
     Playful:
