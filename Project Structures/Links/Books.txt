@@ -32,24 +32,51 @@ Happy:
         -->https://www.amazon.com/Sensitive-Self-Michael-Eigen/dp/0819566853
 
   Amused:
+    https://www.amazon.com/Easily-Amused-Karen-McQuestion-ebook/dp/B003X28734
+
     Creative:
+      https://www.amazon.com/Lateral-Thinking-Creativity-Step/dp/0060903252
+      
       Artistic:
+        https://www.amazon.com/Artists-Their-Lives-Works-DK/dp/1465463283/ref=sr_1_3?dchild=1&keywords=Art+Books+for+Artists&qid=1616218460&sr=8-3
+      
       Intimate:
+        https://www.amazon.com/Love-Languages-Secret-that-Lasts/dp/080241270X
+    
     Humourous:
+      https://www.amazon.com/Persuasion-Nation-George-Saunders/product-reviews/159448242X/ref=cm_cr_arp_d_paging_btm_next_2?ie=UTF8&reviewerType=all_reviews&pageNumber=2
+      
       Desirous:
+        https://www.amazon.com/Desire-Why-We-Want-What/dp/0195327071
+      
       Trusting:
+        https://www.amazon.com/Courage-Trust-Building-Lasting-Relationships/dp/1572243805
     
 
 Optimistic:
+  https://www.amazon.com/Optimism-Bias-Irrationally-Positive-Brain/dp/0307473511
 
   Inspired:
+    https://www.amazon.com/Awaken-Giant-Within-Immediate-Emotional/dp/0671791540
+
     Enthusiastic:
+      https://www.amazon.com/Enthusiastic-YOU-Rediscover-Passion-Success-ebook/dp/B017I51VA2
+      
       Passionate:
+        https://www.amazon.com/Exuberance-Passion-Kay-Redfield-Jamison/dp/0375701486
+      
       Driven:
+        https://www.amazon.com/Driven-How-Strategy-Unlocking-Potential/dp/0470599332
+    
     Eager:
+      https://www.amazon.com/Ambition-Why-Good-Want-More/dp/0857086332
+      -->https://www.amazon.com/Fervor-Free-Tale-Tussle-Between-ebook/dp/B07XC7KZKF
+      
       Hopeful:
         https://www.amazon.com/Hope-Dark-Untold-Histories-Possibilities/dp/1608465764
+      
       Courageous:
+        https://www.amazon.com/Daring-Greatly-Courage-Vulnerable-Transforms/dp/1592408419
   
   Confident:
     Self-Assured:
@@ -72,35 +99,65 @@ Excited:
       Hyped:
 
   Stimulated:
+    https://www.amazon.com/Stimulated-Habits-Spark-Creative-Genius/dp/1929774508
+
     Longing:
+      https://www.amazon.com/Book-Longings-Sue-Monk-Kidd/dp/052542976X
+    
       Tactile:
+        https://www.amazon.com/Quickly-Improve-Learning-Tactile-Superlinks/dp/1928997481
+    
       Aroused:
         https://www.amazon.com/Aroused-History-Hormones-Control-Everything/dp/0393239608
+    
     Loved:
       https://www.amazon.com/Feeling-Loved-Nurturing-Meaningful-Connections/dp/1941631479
+      
       Nurtured:
+        https://www.amazon.com/Nurturing-Our-Humanity-Domination-Partnership/dp/0190935723
+
       Thankful:
-    
+        https://www.amazon.com/Little-Book-Gratitude-happiness-wellbeing/dp/1856753654
 
 
 ------------------------------ Average ----------------------------------
 
 Bored: 
+  https://www.amazon.com/Bored-Brilliant-Spacing-Productive-Creative/dp/1250124956
+
   Indifferent:
+    https://www.amazon.com/Indifferent-Branko-Jovanovski/dp/0615632114?
+
   Apathetic:
+    https://www.amazon.com/Pathetically-Apathetic-Harley-Liechty/dp/0578794233?
 
 Distant: 
-  Reserved: 
+    https://www.amazon.com/Distant-Dead-Novel-Heather-Young/dp/0062690817
+  
+  Reserved:
+    https://www.amazon.com/Quiet-Power-Introverts-World-Talking/dp/0307352153
+  
   Independent: 
+    https://www.amazon.com/Room-Ones-Own-Virginia-Woolf/dp/1614272778
 
 Content: 
+  https://www.amazon.com/Enough-Finding-More-Living-Less-ebook/dp/B0080K3JX2/ref=as_li_ss_tl?ie=UTF8&qid=1505746552&sr=8-1&keywords=enough+finding+more+by+living+with+less&linkCode=sl1&tag=snailpacetran-20&linkId=e911009b37b3bf9385b890eda601f11c
+  
   Satisfied: 
+    https://www.amazon.com/Satisfaction-Science-Finding-True-Fulfillment/dp/080507600X
+  
   Peaceful: 
+    https://www.amazon.com/Way-Peaceful-Warrior-Changes-Lives/dp/1932073205
 
 Relaxed: 
-  Calm: 
-  Sleepy: 
+  https://www.amazon.com/Relaxation-Response-Herbert-Benson/dp/0380006766
 
+  Calm: 
+    https://www.amazon.com/Calm-Michael-Acton-Smith/dp/0062439170
+    -->https://www.amazon.com/Calm-School-Life-Library/dp/099353872X?
+  
+  Sleepy: 
+    https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144316
 
 
 --------------------------------- Bad -------------------------------------
