@@ -2,7 +2,7 @@
     padding: 20px;
     background-color: antiquewhite;
     border-radius: 25px;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .question {
@@ -14,7 +14,7 @@
 }
 
 .answers label {
-    font-size: 30px;
+    font-size: 18px;
 }
 
 .navigate {
