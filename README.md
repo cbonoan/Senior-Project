@@ -7,6 +7,7 @@
 
 - Required Python Modules to Install:
 
+  - email_validator
   - flask
   - flask_wtf
   - flask_login
