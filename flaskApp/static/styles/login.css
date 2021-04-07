@@ -17,7 +17,7 @@
 }
 @media screen and (max-width: 415px) {
     .icon {
-        margin-left: 325px !important;
+        margin-left: 275px !important;
     }
 }
 #body {
@@ -48,7 +48,7 @@ form {
     font-size: 18px;
     width: 100%;
     position: relative;
-    box-shadow: rgba(60, 64, 67, 0.3) 3px 3px 2px 0px
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 .form-group {
     margin-bottom: 0.5rem !important;
