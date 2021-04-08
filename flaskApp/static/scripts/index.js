@@ -1,5 +1,5 @@
 window.onload = function () {
-    document.addEventListener("scroll", function() {
-        
-    });
+    $('.carousel').carousel({
+        interval: 500
+    })
 }
