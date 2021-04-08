@@ -309,7 +309,7 @@ Anxious:
     Persecuted:
       Persecutory Delusions
       https://www.verywellmind.com/what-are-persecutory-delusions-4586500
-      https://www.healthline.com/health/mental-health/persecutory-delusions#treatment
+      -->https://www.healthline.com/health/mental-health/persecutory-delusions#treatment
       Religous Persecution
       https://www.happyhealthyandprosperous.com/scriptures-help-when-you-feel-attacked-persecuted/
 
@@ -361,8 +361,8 @@ Angry:
        
 
     Provoked:
-      (4 Part Article)
-      https://www.psychologytoday.com/us/blog/evolution-the-self/200910/disarming-your-buttons-how-not-get-provoked-pt-1-4
+      (4 Part Article - Could just use first link)
+      -->https://www.psychologytoday.com/us/blog/evolution-the-self/200910/disarming-your-buttons-how-not-get-provoked-pt-1-4
       https://www.psychologytoday.com/us/blog/evolution-the-self/200910/disarming-your-buttons-how-not-get-provoked-pt-2-4
       https://www.psychologytoday.com/us/blog/evolution-the-self/200910/disarming-your-buttons-how-not-get-provoked-pt-2-4
       https://www.psychologytoday.com/us/blog/evolution-the-self/200910/disarming-your-buttons-how-not-get-provoked-pt-4-4

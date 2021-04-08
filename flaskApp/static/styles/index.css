@@ -99,7 +99,7 @@
     animation-direction: alternate;
 }
 #balloon {
-    padding: 3rem 0.5rem;
+    padding: 1.5rem 0.5rem;
     width: 100%;
     max-width: 100%;
     background: linear-gradient(#f9fdff,#d8f3ff);
@@ -115,12 +115,10 @@
     transform: translate(-50%, -50%);
 }
 #content2 {
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding: 3rem 10rem;
     width: 100%;
     max-width: 100%;
     background: linear-gradient(#d8f3ff,#ddf4fd);
-    padding-bottom: 30px;
 }
 #content2row1 .article, #content2row2 .article {
     margin: 0;
