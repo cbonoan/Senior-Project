@@ -4,7 +4,6 @@ be used in the database depending on the selected emotion.
 Emotion:
     Artist - Song - Link
 
-
 ---------------------------------------------- Good ----------------------------------------------
 
 Happy:
@@ -23,6 +22,7 @@ Happy:
 
       Enamored:
         Yuck - Milkshake  https://www.youtube.com/watch?v=v1XZjRtDmLg
+
       Sensitive:
         Cigarettes After Sex - Flash  https://www.youtube.com/watch?v=nrWC_z6l13w
 
@@ -32,12 +32,14 @@ Happy:
       Animal Collective - Summertime Clothes  https://www.youtube.com/watch?v=BAyADMSppaw
 
       Artistic:
+        Chloe x Halle - Hazy  https://www.youtube.com/watch?v=bp0tDUiRA1I
 
       Intimate:
 
     Humourous:
 
       Desirous:
+        Santigold - Chasing Shadows  https://www.youtube.com/watch?v=W_OXKSUQ55g
 
       Trusting:
 
@@ -97,7 +99,9 @@ Excited:
         Gramatik - Native Son Prequel  https://www.youtube.com/watch?v=Kv9FdAMRQ88
 
     Adventurous:
+
         BROCKHAMPTON - BOOGIE  https://www.youtube.com/watch?v=GtCa-f7X2T8
+
         Cornelius - Gum  https://www.youtube.com/watch?v=nbqMqZBxH9w
 
       Faded:
@@ -116,6 +120,7 @@ Excited:
 
       Aroused:
         Trust - Sulk  https://www.youtube.com/watch?v=8tc1xj7Nblc
+        Halogen - U Got That  https://www.youtube.com/watch?v=9W6AN_eQeZo
 
     Loved:
 
@@ -180,6 +185,7 @@ Sad:
 
         Abandonded:
           Slint - Spiderland  https://www.youtube.com/watch?v=FAApF-FDkoY
+
         Reclusive:
           Daughters - You Won't Get What You Want  https://www.youtube.com/watch?v=6BDLHcbjzts
 
@@ -210,7 +216,7 @@ Sad:
           Radiohead - Reckoner  https://www.youtube.com/watch?v=pYHEpDnvVPk
 
         Inadequate:
-
+          Lemonade - Vivid  https://www.youtube.com/watch?v=cgRZX6u-jgg
 
 
 Anxious:
@@ -223,15 +229,15 @@ Anxious:
       Led Zeppelin - In the Light  https://www.youtube.com/watch?v=pNo1nS_JV5k
 
       Worthless:
-
+        MGMT - Of Moons, Birds, & Monsters  https://www.youtube.com/watch?v=v6HXS11l4sw
       Disillusioned:
-
+        Fuck Buttons - The Red Wing  https://www.youtube.com/watch?v=SPukZ0IDkAo
 
     Nervous:
         Claude Debussy - Clair de Lune  https://www.youtube.com/watch?v=ea2WoUtbzuw
 
       Humilated:
-
+        Mac DeMarco - Nobody  https://www.youtube.com/watch?v=jsPEM4LMX0c
       Insecure:
 
 
@@ -241,17 +247,20 @@ Anxious:
 
     Fearful:
        Beach House - Lemon Glow  https://www.youtube.com/watch?v=08qd-vsHbaY
+
       Paranoid:
        Joe Satriani - Just Look Up  https://www.youtube.com/watch?v=sT5GiEJB5Cg
+
       Threatened:
 
 
     Persecuted:
         Stevie Ray Vaughan - Tin Pan Alley  https://www.youtube.com/watch?v=oydj5H9C-no
+
       Confused:
 
       Rejected:
-
+        Lim Kim - Awoo  https://www.youtube.com/watch?v=gHg1m8Y6Jgo
 
 
 Angry:
@@ -265,12 +274,14 @@ Angry:
 
       Bitter:
         HIM - Killing Loneliness  https://www.youtube.com/watch?v=iZoeZrUR_7k
+
       Jealous:
 
     Disrespected:
       James Gang - Walk Away  https://www.youtube.com/watch?v=34abRUUeslw
 
       Ridiculed:
+        Thurston Moore - Forevermore  https://www.youtube.com/watch?v=1SOR0LqZQwg
 
       Let Down:
 
