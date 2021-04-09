@@ -46,6 +46,10 @@
 #question {   
         font-family: 'Open Sans', sans-serif;
         text-align: center;
+        
+        padding-top: 3.5rem;
+    width: 100%;
+    max-width: 100%;
 }
 img {
     max-width: 100%;
