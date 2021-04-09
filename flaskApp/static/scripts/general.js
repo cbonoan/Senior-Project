@@ -24,7 +24,7 @@ window.onload = function() {
         if(window.scrollY != 0) {
             elem.classList.add("shadow");
             if(window.innerWidth > 1000)
-                elem.style.padding = "0.75rem";
+                elem.style.padding = "0.35rem";
         } else {
             elem.classList.remove("shadow");
             elem.style.padding = "0rem";

@@ -11,7 +11,12 @@ def home():
 
 @app.route("/quiz")
 def quiz():
-    return render_template('quiz.html')
+    if current_user.is_authenticated:
+        return render_template('quiz.html')
+    
+    form = LoginForm()
+    flash("Please login or create an account first!", 'warning')
+    return redirect(url_for('login'))
 
 @app.route("/meditation")
 def meditation():
