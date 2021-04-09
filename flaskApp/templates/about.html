@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block styles %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/about.css') }}">
+<script type='text/javascript' src="{{ url_for('static', filename='scripts/general.js') }}"></script>
+{%endblock%}
+{%block content%}
+    <h2 class = "title1">About Us</h2>
+    <div id = "section">
+        <h3 class = "title2">Our Mission</h3>
+        <div class = "image">
+            <img src="{{url_for('static', filename='svg/festivities.svg')}}" alt="festivities">
+        </div>
+        <p>The goal of MindSanctuary is to help our users maintain a healthy mind through journal writing and mood observation. We plan to benefit the user’s mental health by providing recommendations, such as movies to watch, songs to listen to, and articles/books to read that help our users better understand their emotions.  While we do want to replicate the same success as other health applications, this health application will attempt to try not to ask users direct questions and will be more focused on obtaining data from the logs the user fills out in order to make our recommendations. 
+    </div>
+    <div id = "section">
+        <h3 class = "title2">Our Team</h3>
+        <div class = "image">
+            <img src="{{url_for('static', filename='svg/team_design.svg')}}" alt="team designing">
+        </div>
+        <p>The team consists of a group of four experienced software developers attending California State University of Bakersfield as Seniors. We are all very passionate about helping out those who are going through tough times in isolation, and are aiming to help people get their life back on track. All four developers have experience with designing database systems, expert systems, and front end development. We hope to promote happiness and success in our users lives.</p>
+    </div>
+    <div class = "image">
+        <img src="{{url_for('static', filename='svg/celebrating_life.svg')}}" alt="celebrating life">
+    </div>
+
+{%endblock%}

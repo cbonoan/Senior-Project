@@ -1,4 +1,4 @@
-PLEASE NOTE: Some emotions have multiple article links. The ones that 
+PLEASE NOTE: Some emotions have multiple book links. The ones that 
 I deemed most fitting have been symbolized with the suceeding arrow "-->"
 In addition, these books are more like good reads on the topic and may not
 be entirely centered on just one emotion.
@@ -25,138 +25,313 @@ Happy:
       https://www.amazon.com/Why-We-Love-Chemistry-Romantic/dp/B01L9DL6ZO
       -->https://www.amazon.com/Mathematics-Love-Patterns-Ultimate-Equation/dp/1476784884
     
-      Enamored: <<<
+      Enamored:
+        https://www.amazon.com/Book-About-Love-Jonah-Lehrer/dp/147676140X
     
       Sensitive:
         https://www.amazon.com/Highly-Sensitive-Person-Thrive-Overwhelms/dp/0553062182
         -->https://www.amazon.com/Sensitive-Self-Michael-Eigen/dp/0819566853
 
   Amused:
+    https://www.amazon.com/Easily-Amused-Karen-McQuestion-ebook/dp/B003X28734
+
     Creative:
+      https://www.amazon.com/Lateral-Thinking-Creativity-Step/dp/0060903252
+      
       Artistic:
+        https://www.amazon.com/Artists-Their-Lives-Works-DK/dp/1465463283/ref=sr_1_3?dchild=1&keywords=Art+Books+for+Artists&qid=1616218460&sr=8-3
+      
       Intimate:
+        https://www.amazon.com/Love-Languages-Secret-that-Lasts/dp/080241270X
+    
     Humourous:
+      https://www.amazon.com/Persuasion-Nation-George-Saunders/product-reviews/159448242X/ref=cm_cr_arp_d_paging_btm_next_2?ie=UTF8&reviewerType=all_reviews&pageNumber=2
+      
       Desirous:
+        https://www.amazon.com/Desire-Why-We-Want-What/dp/0195327071
+      
       Trusting:
+        https://www.amazon.com/Courage-Trust-Building-Lasting-Relationships/dp/1572243805
     
 
 Optimistic:
+  https://www.amazon.com/Optimism-Bias-Irrationally-Positive-Brain/dp/0307473511
 
   Inspired:
+    https://www.amazon.com/Awaken-Giant-Within-Immediate-Emotional/dp/0671791540
+
     Enthusiastic:
+      https://www.amazon.com/Enthusiastic-YOU-Rediscover-Passion-Success-ebook/dp/B017I51VA2
+      
       Passionate:
+        https://www.amazon.com/Exuberance-Passion-Kay-Redfield-Jamison/dp/0375701486
+      
       Driven:
+        https://www.amazon.com/Driven-How-Strategy-Unlocking-Potential/dp/0470599332
+    
     Eager:
+      https://www.amazon.com/Ambition-Why-Good-Want-More/dp/0857086332
+      -->https://www.amazon.com/Fervor-Free-Tale-Tussle-Between-ebook/dp/B07XC7KZKF
+      
       Hopeful:
         https://www.amazon.com/Hope-Dark-Untold-Histories-Possibilities/dp/1608465764
+      
       Courageous:
+        https://www.amazon.com/Alchemist-Paulo-Coelho/dp/0061122416
+        -->https://www.amazon.com/Courage-Overcoming-Fear-Igniting-Self-Confidence/dp/006206892X
   
   Confident:
+    https://www.amazon.com/You-Are-Badass%C2%AE-Doubting-Greatness/dp/0762447699
+
     Self-Assured:
+      https://www.amazon.com/ITS-ALL-YOUR-HEAD-Russ/dp/0062962434/ref=asc_df_0062962434/?tag=hyprod-20&linkCode=df0&hvadid=385655114864&hvpos=&hvnetw=g&hvrand=2348092321433689599&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031715&hvtargid=pla-839085092853&psc=1&tag=&ref=&adgrpid=78303888906&hvpone=&hvptwo=&hvadid=385655114864&hvpos=&hvnetw=g&hvrand=2348092321433689599&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031715&hvtargid=pla-839085092853
+
       Valued:
+        https://www.amazon.com/Power-Moments-Certain-Experiences-Extraordinary/dp/1501147765/ref=asc_df_1501147765/?tag=hyprod-20&linkCode=df0&hvadid=312049124368&hvpos=&hvnetw=g&hvrand=5103032112712090340&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031715&hvtargid=pla-402795615304&psc=1&tag=&ref=&adgrpid=61851652213&hvpone=&hvptwo=&hvadid=312049124368&hvpos=&hvnetw=g&hvrand=5103032112712090340&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031715&hvtargid=pla-402795615304
+        -->https://www.amazon.com/Value-You-Living-Joyfully-Through-ebook/dp/B076S4VJXZ
+      
       Accepted:
+        https://www.amazon.com/Gifts-Acceptance-Embracing-People-Things/dp/0982893051
+    
     Successful:
+      https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034
+      
       Proud:
         https://www.amazon.com/Proud-Fight-Unlikely-American-Dream/dp/0316518964
+      
       Accomplished:
+        https://www.amazon.com/Human-Accomplishment-Pursuit-Excellence-Sciences/dp/0060929642#detailBullets_feature_div
 
 
 Excited:
+  https://www.amazon.com/Life-What-You-Make-Fulfillment/dp/0307464725
 
   Recreational:
+    https://www.amazon.com/Why-We-Swim-Bonnie-Tsui/dp/1616207868/ref=asc_df_1616207868/?tag=hyprod-20&linkCode=df0&hvadid=459515754640&hvpos=&hvnetw=g&hvrand=8747309507099597582&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031715&hvtargid=pla-902929891088&psc=1
+    -->https://www.amazon.com/Outdoor-Recreation-Environmental-Impacts-Management/dp/3319977571/ref=asc_df_3319977571/?tag=hyprod-20&linkCode=df0&hvadid=416661470872&hvpos=&hvnetw=g&hvrand=7017308538291591985&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031715&hvtargid=pla-838436806787&psc=1&tag=&ref=&adgrpid=94183491016&hvpone=&hvptwo=&hvadid=416661470872&hvpos=&hvnetw=g&hvrand=7017308538291591985&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031715&hvtargid=pla-838436806787
+
     Playful:
+      https://www.amazon.com/Playful-Intelligence-Living-Lightly-Serious/dp/1595800859
+      
       Curious:
+        https://www.amazon.com/Curious-Desire-Know-Future-Depends/dp/0465097626
+
       Energetic:
+        https://www.amazon.com/Insane-Energy-Lazy-People-Incredibly-ebook/dp/B07STDFCM6
+        -->https://www.amazon.com/Its-All-About-Energy-Professionally-ebook/dp/B08194WGYZ
+
     Adventurous:
+      https://www.amazon.com/Adventure-Everything-Elements-Authenticity-Inspiration/dp/1401929605
+
       Inquisitive:
+        https://www.amazon.com/Inquisitive-Culture-Communication-Revolution-Challenges/dp/1977223478
+
       Hyped:
+        https://www.amazon.com/Hype-Handbook-Indispensable-Propagandists-Self-Promoters/dp/126047013X
 
   Stimulated:
+    https://www.amazon.com/Stimulated-Habits-Spark-Creative-Genius/dp/1929774508
+
     Longing:
+      https://www.amazon.com/Book-Longings-Sue-Monk-Kidd/dp/052542976X
+    
       Tactile:
+        https://www.amazon.com/Quickly-Improve-Learning-Tactile-Superlinks/dp/1928997481
+    
       Aroused:
         https://www.amazon.com/Aroused-History-Hormones-Control-Everything/dp/0393239608
+    
     Loved:
       https://www.amazon.com/Feeling-Loved-Nurturing-Meaningful-Connections/dp/1941631479
+      
       Nurtured:
+        https://www.amazon.com/Nurturing-Our-Humanity-Domination-Partnership/dp/0190935723
+
       Thankful:
-    
+        https://www.amazon.com/Little-Book-Gratitude-happiness-wellbeing/dp/1856753654
 
 
 ------------------------------ Average ----------------------------------
 
 Bored: 
+  https://www.amazon.com/Bored-Brilliant-Spacing-Productive-Creative/dp/1250124956
+
   Indifferent:
+    https://www.amazon.com/Indifferent-Branko-Jovanovski/dp/0615632114?
+
   Apathetic:
+    https://www.amazon.com/Pathetically-Apathetic-Harley-Liechty/dp/0578794233?
 
 Distant: 
-  Reserved: 
+    https://www.amazon.com/Distant-Dead-Novel-Heather-Young/dp/0062690817
+  
+  Reserved:
+    https://www.amazon.com/Quiet-Power-Introverts-World-Talking/dp/0307352153
+  
   Independent: 
+    https://www.amazon.com/Room-Ones-Own-Virginia-Woolf/dp/1614272778
 
 Content: 
+  https://www.amazon.com/Enough-Finding-More-Living-Less-ebook/dp/B0080K3JX2/ref=as_li_ss_tl?ie=UTF8&qid=1505746552&sr=8-1&keywords=enough+finding+more+by+living+with+less&linkCode=sl1&tag=snailpacetran-20&linkId=e911009b37b3bf9385b890eda601f11c
+  
   Satisfied: 
+    https://www.amazon.com/Satisfaction-Science-Finding-True-Fulfillment/dp/080507600X
+  
   Peaceful: 
+    https://www.amazon.com/Way-Peaceful-Warrior-Changes-Lives/dp/1932073205
 
 Relaxed: 
-  Calm: 
-  Sleepy: 
+  https://www.amazon.com/Relaxation-Response-Herbert-Benson/dp/0380006766
 
+  Calm: 
+    https://www.amazon.com/Calm-Michael-Acton-Smith/dp/0062439170
+    -->https://www.amazon.com/Calm-School-Life-Library/dp/099353872X?
+  
+  Sleepy: 
+    https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144316
 
 
 --------------------------------- Bad -------------------------------------
 
 Sad:
+  https://www.amazon.com/Blue-Day-Book-Cheering-Yourself/dp/0740791877
 
   Melancholy:
+    https://www.amazon.com/Anatomy-Melancholy-Unabridged-Robert-Burton/dp/1781398968
+
     Lonely:
+      https://www.amazon.com/Loneliness-Way-Life-Thomas-Dumm/dp/0674047885
+
       Abandonded:
+        https://www.amazon.com/Black-Swan-Lessons-Abandonment-Recovery/dp/0967375517
+
       Reclusive:
+        -->https://www.amazon.com/Solitude-Return-Self-Anthony-Storr/dp/0743280741
+        https://www.amazon.com/Solitude-Seeking-Extremes-Patagonia-Wilderness/dp/1577316746
+
     Depressed:
+      https://www.amazon.com/dp/1989025560?tag=dotdashvwm-20&linkCode=ogi&th=1&psc=1&ascsubtag=5094535%7Cne08dd9b86a6f479ea77c9ee99c99a17804
+
       Stressed:
+        https://www.amazon.com/Why-Zebras-Dont-Ulcers-Stress-Related-ebook/dp/B0037NX018/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=dghpersdevbooks-20&linkId=b979ce01c19421ccea5ef0d61cc26433
+
       Tired:
+        https://www.amazon.com/Tired-Being-Rescue-Repair-Rejuvenate/dp/0425184595
 
   Vulnerable:
+    https://www.amazon.com/Power-Vulnerability-Teachings-audio-cd/dp/1604078588
+    -->https://www.amazon.com/Daring-Greatly-Courage-Vulnerable-Transforms/dp/1592408419
+
     Powerless:
+      https://www.amazon.com/Limitless-Life-Powerless-World/dp/1982219610
+
       Embarrassed:
+        https://www.amazon.com/Let-Worry-Embarrassment-Regret-Happiness/dp/1517415403
+      
       Inferior:
+        https://www.amazon.com/Inferiority-Complex-Cure-Ultimate-Self-Esteem-ebook/dp/B00VU11JNA
+
     Fragile:
+      https://www.amazon.com/Fragile-anxious-stressed-overwhelmed-about/dp/071718322X
+
       Weak:
+        https://www.amazon.com/Strong-Why-Feel-Weak-Themselves/dp/168350643X
+
       Inadequate:
+        https://www.amazon.com/You-Are-Good-Enough-Overcoming/dp/0824519574
 
 
 Anxious:
+  https://www.amazon.com/Unwinding-Anxiety-Science-Shows-Cycles/dp/0593330447
 
   Worried:
+    https://www.amazon.com/Conclusion-Dont-Worry-About/dp/1524799599/ref=asc_df_1524799599/?tag=hyprod-20&linkCode=df0&hvadid=312057360383&hvpos=&hvnetw=g&hvrand=14112267330646788884&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031715&hvtargid=pla-435714566799&psc=1
+
     Hopeless:
+      https://www.amazon.com/dp/1451667531?tag=s7621-20
+      
       Worthless:
+        https://www.amazon.com/Feeling-Worthless-Unworthy-Worthlessness-Unworthiness-ebook/dp/B00VR7Z3Y8
+
       Disillusioned:
+        https://www.amazon.com/Stitches-Handbook-Meaning-Hope-Repair/dp/1594632588
+
     Nervous:
+      https://www.amazon.com/Notes-Nervous-Planet-Matt-Haig/dp/014313342X
+
       Humilated:
+        https://www.amazon.com/Humiliation-BIG-IDEAS-small-books/dp/0312429223
+
       Insecure:
+        https://www.amazon.com/Wisdom-Insecurity-Message-Age-Anxiety/dp/0307741206
 
   Scared:
+
     Fearful:
+      https://www.amazon.com/Gift-Fear-Survival-Signals-Violence/dp/0440226198
+
       Paranoid:
+        https://www.amazon.com/Understanding-Paranoia-Professionals-Families-Sufferers/dp/0313363196
+      
       Threatened:
+        https://www.amazon.com/Threats-Intimidation-Discontents-David-Barash/dp/0190055294
+    
     Persecuted:
+        https://www.amazon.com/Shadows-Myanmar-Aung-Persecution-Rohingya/dp/1788311515/ref=pd_sim_0_4/147-2091875-0437749?_encoding=UTF8&pd_rd_i=1788311515&pd_rd_r=fb5e9c62-5a6c-11e9-b906-b9ec640be17b&pd_rd_w=Kt6p7&pd_rd_wg=Qgf7D&pf_rd_p=90485860-83e9-4fd9-b838-b28a9b7fda30&pf_rd_r=2A730V0N5XP10B0YSME6&psc=1&refRID=2A730V0N5XP10B0YSME6
+        -->https://www.amazon.com/Captive-Iran-Remarkable-Triumph-Tehrans-ebook/dp/B008PX20X4
+
       Confused:
+        https://www.amazon.com/Confused-Mind-Achieve-Lasting-Happiness-ebook/dp/B07RGR53T9
+
       Rejected:
+        https://www.amazon.com/Dont-Take-Personally-Dealing-Rejection/dp/1504036239
 
 
 Angry:
+  https://www.amazon.com/Anger-Powerful-Emotion-Gary-Chapman/dp/0802413145
 
   Frustrated:
+    https://www.amazon.com/Anger-Trap-Yourself-Frustrations-Sabotage/dp/0787968803
+
     Annoyed:
+      https://www.amazon.com/Annoying-Science-What-Bugs-Us/dp/0470638699#customerReviews
+      
       Bitter:
+        https://www.amazon.com/When-Youve-Been-Wronged-Forgiveness/dp/0802488978
+
       Jealous:
+        https://www.amazon.com/Overcoming-Jealousy-Possessiveness-Paul-Hauck/dp/0664243746
+
     Disrespected:
+      https://www.amazon.com/Dealing-Disrespect-Handling-critics-matter-ebook/dp/B00K2EWNWM
+
       Ridiculed:
+        https://www.amazon.com/Laughter-Ridicule-Critique-Published-association/dp/1412911435
+
       Let Down:
+        -->https://www.amazon.com/Expectation-Hangover-Overcoming-Disappointment-Work/dp/1608682412/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=
+        https://www.amazon.com/Letdown-Solve-Inner-Disappointment-Chinese/dp/7539996331
+
 
   Aggressive:
+    https://www.amazon.com/Management-Aggressive-Behavior-Comprehensive-Recognize/dp/1879411229
+
     Hostile:
+      https://www.amazon.com/Culmination-Disgust-Self-Hatred-Hostility/dp/1936463113
+
       Skeptical:
       Confrontational:
+        https://www.amazon.com/Culmination-Disgust-Self-Hatred-Hostility/dp/1936463113
+
+      Distant:
+        https://www.amazon.com/Distant-Dead-Novel-Heather-Young/dp/0062690817
+
     Provoked:
+      https://www.amazon.com/Provoked-Kiranjit-Ahluwalia-Ahluwalia-Rahila-Gupta/dp/8172236700
+
       Violated:
+        https://www.amazon.com/Violation-Darian-North/dp/0451179153
+        -->https://www.amazon.com/Violation-Collected-Essays-Sallie-Tisdale/dp/0990437086
+
       Betrayed:
+        https://www.amazon.com/Breaking-Through-Betrayal-Recovering-Horizons/dp/1615990097
