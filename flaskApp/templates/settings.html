@@ -1,0 +1,108 @@
+{% extends "layout.html" %}
+{% block styles %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/settings.css') }}">
+<script type='text/javascript' src="{{ url_for('static', filename='scripts/settings.js') }}"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+{%endblock%}
+{%block content%}
+<form class="container light-style flex-grow-1 container-p-y" method='post' action="/settings_post">
+
+    <h4 class="font-weight-bold py-3 mb-4">
+      Account settings
+    </h4>
+
+    <div class="card overflow-hidden">
+      <div class="row no-gutters row-bordered row-border-light">
+        <div class="col-md-3 pt-0">
+          <div class="list-group list-group-flush account-settings-links">
+            <a class="list-group-item list-group-item-action active" data-toggle="list" href="#account-general">General</a>
+            <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-change-password">Change password</a>
+            
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="tab-content">
+            <div class="tab-pane fade active show" id="account-general">
+               
+              
+              <hr class="border-light m-0">
+
+              <div class="card-body">
+                <div class="form-group">
+                  <label class="form-label">Username</label>
+                  <input type="text" class="form-control mb-1" name = "username" value="{{ username }}">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Name</label>
+                  <input type="text" class="form-control" name = "name" value="{{ name }}">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">E-mail</label>
+                  <input type="text" class="form-control mb-1" name="email" value="{{ email }}">
+                 
+                </div>
+                
+
+            </div>
+            </div>
+            <div class="tab-pane fade" id="account-change-password">
+              <div class="card-body pb-2">
+
+                <div class="form-group">
+                  <label class="form-label">Current password</label>
+                  <input type="password" name = "password" class="form-control" >
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">New password</label>
+                  <input type="password" id= "password1" name = "password1" class="form-control" >
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Repeat new password</label>
+                  <input type="password" id= "password2" name = "password2" class="form-control" onchange="check(this)" >
+                </div>
+                <script language='javascript' type='text/javascript'>
+                  function check(input) {
+                      if (document.getElementById('password1').value != document.getElementById('password2').value) {
+                          input.setCustomValidity('Password Must be Matching.');
+                      } else {                         
+                          input.setCustomValidity('');
+                      }
+                  }
+              </script>
+              </div>
+            </div>
+           
+            <div class="form-group">
+                <label class="form-label">Enter Confirmation Number To Save Settings</label>
+                <input type="text" class="form-control" name = "rand_number" required>
+              </div>
+          
+        </div>
+      </div>
+    </div>
+<script>
+    function sendEmail() {
+	Email.send({
+	Host: "smtp.gmail.com",
+	Username : "testing54321123@gmail.com",
+	Password : "testing#12345",
+	To : '{{email}}',
+	From : "testing54321123@gmail.com",
+	Subject : "confirmation",
+	Body : "Your confirmation code is {{number}}",
+	}).then(
+		message => alert("mail sent successfully")
+	);
+    
+}
+</script>
+    <div class="text-right mt-3">
+      <button type="submit" value="Submit" class="btn btn-primary" >Save changes</button>&nbsp;
+      <button type="button" class="btn btn-default" onclick="sendEmail()">Send Confirmation</button>
+    </div>
+
+  </div>
+</form>
+{%endblock%}
