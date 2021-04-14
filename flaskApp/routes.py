@@ -16,8 +16,13 @@ def home():
     return render_template('index.html')
 
 @app.route("/quiz")
+@login_required
 def quiz():
-    return render_template('quiz.html')
+    return render_template('quiz.html', title='Quiz')
+
+@app.route("/results")
+def results():
+    return render_template('results.html')
 
 @app.route("/meditation")
 def meditation():
@@ -92,7 +97,8 @@ def settings():
     name = current_user.name
     number = randint(100000,999999)
     session['number'] = number
-    return render_template('settings.html', title=current_user.username + " 's Settings", email = email, username = username, name = name, number = number )
+    return render_template('settings.html', title=current_user.username + "'s Settings", email = email, username = username, name = name, number = number )
+
 @app.route("/settings_post", methods=['GET','POST'])
 @login_required
 def settings_post():    
