@@ -1,3 +1,4 @@
 flaskApp/__pycache__/
 flask_session/
 env
+flaskApp/*.pyc

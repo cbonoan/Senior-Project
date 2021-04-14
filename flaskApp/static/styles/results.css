@@ -1,0 +1,40 @@
+#body {
+    background-image: linear-gradient(#96ED89, white);
+}
+#results {
+    background: white;
+    margin-top: 150px;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 800px;
+    height: 750px;
+    display: flex;
+}
+
+#leftColumn, #rightColumn {
+    margin: 20px 20px;
+    width: 375px;
+    height: 700px;
+    padding: 0;
+}
+#leftColumn iframe {
+    width: 375px;
+    height: 700px;
+
+}
+#rightColRow1 {
+    margin: 0 0 70px;
+}
+#rightColRow2 {
+    margin: 55px 0 30px;
+}
+#rightColRow1 iframe{
+    width: 325px;
+    height: 100%;
+    
+}
+#rightColRow2 iframe{
+    width: 325px;
+    height: 400px;
+}
+
