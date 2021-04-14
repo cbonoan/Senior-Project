@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/results.css') }}">
+{%endblock%}
+
+{%block content%}
+    <div class="container" id="results">
+        <div class="container" id="leftColumn">
+            <iframe src="https://yogisurprise.com/the-practice-of-being-joyful/" frameborder="0"></iframe>
+        </div>
+        <div class="container" id="rightColumn">
+            <div class="row">
+                <div class="col" id="rightColRow1">
+                    <iframe src="https://www.youtube.com/embed/h9YyazDg9YM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" id="rightColRow2">
+                    <iframe src="https://www.publishersweekly.com/978-0-316-39926-5" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+{%endblock%}
+
+{%block scripts%}
+{%endblock%}

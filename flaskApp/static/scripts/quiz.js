@@ -96,7 +96,7 @@ $(document).ready(function () {
         // If user is not done
         if(questionsAnswered < totalQuestions-1) {
             console.log(index);
-           var radioVal = $("input[name='answer']:checked").val(); 
+            var radioVal = $("input[name='answer']:checked").val(); 
             if(radioVal) {
                 var val = parseInt(radioVal);
                 scores.push(val*questions[numQuestion][1]);
