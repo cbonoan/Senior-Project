@@ -63,7 +63,6 @@ function generateQuestionNum() {
         num = Math.floor(Math.random() * (max - min) + min);
     }
 
-    questionsSeen.push(num);
     return num;
 }
 
@@ -75,15 +74,19 @@ var totalQuestions = 10;
 var questionsAnswered = 0; // User will answer 10 questions total 
 var numQuestion = generateQuestionNum(); // Keeps track of what question user is on
 var avg = 0; 
+var index = 0;  // Use backtracking so that user can reanswer questions
 $(".question").append("<p>"+questions[numQuestion][0]+"</p>");
 $(document).ready(function () {
-    function getNextQuestion() {
-        console.log(scores);
+    function getNextQuestion(question = -1) {
 
         // Uncheck previous radio answer, then show next question requested
         $("input[name='answer']:checked").prop("checked", false); 
 
-        numQuestion = generateQuestionNum(); 
+        if(question == -1 && index == questionsSeen.length) {
+            numQuestion = generateQuestionNum(); 
+        } else {
+            numQuestion = questionsSeen[index];
+        }
         $(".question").empty();
         $(".question").append("<p>"+questions[numQuestion][0]+"</p>");
     }
@@ -91,32 +94,50 @@ $(document).ready(function () {
     // Get value of answer user inputted
     $("#nextBtn").click(function () {
         // If user is not done
-        console.log(questionsAnswered);
         if(questionsAnswered < totalQuestions-1) {
+            console.log(index);
            var radioVal = $("input[name='answer']:checked").val(); 
             if(radioVal) {
                 var val = parseInt(radioVal);
                 scores.push(val*questions[numQuestion][1]);
                 questionsAnswered++; 
-                getNextQuestion(); 
+                if(index == questionsSeen.length) {
+                    questionsSeen.push(numQuestion);
+                }
+                index++; 
+                getNextQuestion();
             } 
-        } else {
-            // Get results 
-            var sum = 0;
-            for(var i=0; i<scores.length; i++) {
-                sum += scores[i];
-            }
-            avg = sum/scores.length; 
-            console.log(avg);
+        } else { // else user is on last question 
+            // Grab last question result 
+            var radioVal = $("input[name='answer']:checked").val(); 
+            if(radioVal) {
+                var val = parseInt(radioVal);
+                scores.push(val*questions[numQuestion][1]);
+
+                // Get results 
+                var sum = 0;
+                for(var i=0; i<scores.length; i++) {
+                    sum += scores[i];
+                }
+                avg = sum/scores.length; 
+                console.log(avg);
+            } 
+            console.log(scores);
+
+            
         }
-        
+        console.log(scores);
+
     });
 
     $("#backBtn").click(function () {
-        if(numQuestion > 0) {
+        console.log(questionsSeen);
+        if(questionsAnswered > 0) {
+            var prevQuestion = questionsSeen[index-1];
+            index--;
             scores.pop();
             questionsAnswered--;
-            getNextQuestion();
+            getNextQuestion(prevQuestion);
         }
     });
 });
