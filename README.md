@@ -7,16 +7,16 @@
 
 - Required Python Modules to Install:
 
-  - email_validator
   - flask
   - flask_wtf
   - flask_login
   - flask_bcrypt
-  - flask_login
   - flask_mysqldb
+  - email_validator
   - flask_sqlalchemy
 
-- Important Notes about Files:
-  - All html files should be inside the "templates" folder
-  - CSS files inside the "static/styles" folder
+- File Organization:
+
+  - HTML files inside the "templates" folder
   - JS files inside the "static/scripts" folder
+  - CSS files inside the "static/styles" folder
