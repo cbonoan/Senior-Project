@@ -46,7 +46,7 @@
                         {% endfor %}
                     {% endif %}
                 {%endwith%}
-                <h1 class="" id="slogan">Be at Peace</h1>
+                <h1 class="" id="slogan">Be At Peace</h1>
                 <div class="blockquote" id="randQuote">
                     <p style="font-size: 1rem; color: #4b4c4d;">Make your mental health a priority.</p>
                 </div>
@@ -55,7 +55,11 @@
             </div>
         </div> 
         <div class="container nextDiv" style="text-align: center;">
-            <a href="#missionStmt" class="btn" id="btn" style="margin-top: 11rem;"><i class="fas fa-angle-double-down"></i></a>
+            <!-- Put logo here  -->
+            <div class="container" id="fullLogo">
+                <img src="{{url_for('static', filename='pictures/MindSanctuary_Stacked.png')}}" alt="" width="765" height="350">
+            </div>
+            <a href="#missionStmt" class="btn" id="btn" style="margin-top: 25px; margin-bottom: 150px;"><i class="fas fa-angle-double-down"></i></a>
         </div>
     </div>
 
@@ -115,7 +119,7 @@
             </div>
         </div>
         <div class="container nextDiv" style="text-align: center;">
-            <a href="#articles" class="btn" id="btn" style="margin-top: 11rem;"><i class="fas fa-angle-double-down"></i></a>
+            <a href="#articles" class="btn" id="btn" style="margin-top: 150px;"><i class="fas fa-angle-double-down"></i></a>
         </div>
     </div>
 
@@ -126,19 +130,19 @@
                 <div class="carousel-item active text-center"  id="article1">
                     <img src="{{url_for('static', filename='pictures/mindfulness.png')}}" alt="First article">
                     <div class="articleLink">
-                        <p>Article 1</p>
+                        <a href="https://www.mindful.org/meditation/mindfulness-getting-started/" target="_blank">Meditation 101</a>
                     </div>
                 </div>
                 <div class="carousel-item text-center" id="article2">
                     <img src="{{url_for('static', filename='pictures/meditation.png')}}" alt="Second article">
                     <div class="articleLink">
-                        <p>Article 2</p>
+                        <a href="https://www.medicentres.com/2018/11/coping-strategies-mental-health/" target="_blank">Coping strategies</a>
                     </div>
                 </div>
                 <div class="carousel-item text-center" id="article3">
                     <img src="{{url_for('static', filename='pictures/workingOut.png')}}" alt="Third article">
                     <div class="articleLink">
-                        <p>Article 3</p>
+                        <a href="https://www.helpguide.org/articles/mental-health/building-better-mental-health.htm" target="_blank">How To Better Mental Health</a>
                     </div>
                 </div>
             </div>
