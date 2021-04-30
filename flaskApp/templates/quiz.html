@@ -3,8 +3,6 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='styles/quiz.css') }}">
 <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
 {%endblock%}
-{% block headScripts %}
-{% endblock %}
 {%block content%}
     <div class="container" id="questionBox">
         <div class="container question">
@@ -46,12 +44,7 @@
             </div>
         </div>
     </div>
-    
-    <div class="container progress">
-        <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" id="progressBar" role="progressbar" style="width: 0;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-      </div>
-
 {% endblock %}
 {%block scripts%}
-<script src="{{ url_for('static', filename='scripts/quiz.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/quiz.js') }}"></script>
 {%endblock%}

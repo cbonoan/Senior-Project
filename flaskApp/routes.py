@@ -1,19 +1,15 @@
-from flask import render_template, url_for, flash, redirect, request, session, g, jsonify
+from flask import render_template, url_for, flash, redirect, request, session, g
 from flaskApp import app, db, bcrypt
 from flaskApp.forms import *
 from flaskApp.models import *
 from flask_login import login_user, logout_user, current_user, login_required
 from random import randint
 from flask_session import Session
-import json
 
 app.debug = True
 app.config['SECRET_KEY'] = 'secret'
 app.config['SESSION_TYPE'] = 'filesystem'
 Session(app)
-
-# Global variables here if needed 
-
 @app.route("/")
 @app.route("/home")
 def home():
@@ -24,18 +20,9 @@ def home():
 def quiz():
     return render_template('quiz.html', title='Quiz')
 
-@app.route("/results", methods=['GET'])
+@app.route("/results")
 def results():
-    if request.method == 'GET':
-        return render_template('results.html')
-
-@app.route("/results_post", methods=['POST'])
-def results_post():
-    if request.method == 'POST':
-        data = request.json
-        session['quizAvg'] = data['quizRes']
-        redirect = {'url': url_for('results')}
-        return jsonify(redirect)
+    return render_template('results.html')
 
 @app.route("/meditation")
 def meditation():
@@ -124,7 +111,7 @@ def settings_post():
                 current_user.password = hashed_pwd
                 db.session.commit()
             elif (request.form['password'] != "") or (request.form['password1'] != "") or (request.form['password2'] != ""):
-                flash(f'Insufficient password information, settings not saved.', 'warning')
+                flash(f'Insufficient password information, settings not saved.', 'success')
                 return redirect(url_for('home'))
             if request.form['email'].strip() != current_user.email:
                 current_user.email = request.form['email'].strip()
@@ -139,6 +126,15 @@ def settings_post():
             flash(f'Settings successfully saved.', 'success')
             return redirect(url_for('home'))
         else:
-            flash(f'Incorrect confirmation number, settings not saved.', 'warning')
+            flash(f'Incorrect confirmation number, settings not saved.', 'success')
             return redirect(url_for('home'))
     return redirect(url_for('home'))
+
+@app.route("/calendar")
+@login_required
+def calendar():
+    email = current_user.email
+    feeling = Feelings.query.filter_by(id=current_user.id).all()
+    print(len(feeling))
+    return render_template('calendar.html', email=email, feeling=feeling, size = len(feeling))
+

@@ -6,8 +6,6 @@
     background-color:  #E1E6FA;
     border-radius: 25px;
     margin-top: 200px;
-    min-height: 250px; 
-    max-height: 400px;
 }
 
 .question {
@@ -32,10 +30,4 @@
 .arrow-btn {
     background-color: transparent;
     border: 0;
-}
-
-.progress {
-    padding: 0 !important;
-    margin-top: 25px;
-    max-width: 50%;
 }
