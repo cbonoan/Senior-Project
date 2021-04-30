@@ -4,7 +4,12 @@
 {%endblock%}
 
 {%block content%}
-    <div class="container" id="results">
+    <div class="container text-center" id="stmt">
+        <h5>According to your results...</h5>
+        <p>Here is what we recommend.</p>
+    </div>
+
+    <div class="container" id="results" data-url="{{ url_for('results') }}">
         <div class="container" id="leftColumn">
             <iframe src="https://yogisurprise.com/the-practice-of-being-joyful/" frameborder="0"></iframe>
         </div>
