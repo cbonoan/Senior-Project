@@ -75,26 +75,6 @@ var questionsAnswered = 0; // User will answer 10 questions total
 var numQuestion = generateQuestionNum(); // Keeps track of what question user is on
 var avg = 0; 
 var index = 0;  // Use backtracking so that user can reanswer questions
-
-function updateProgressBar() {
-    var progress = (questionsAnswered/totalQuestions) * 100;
-    document.getElementById("progressBar").style.width = progress + "%";
-
-    if(progress == 100) {
-        data = {'quizRes': avg};
-        $.ajax({
-            type: "POST",
-            url: "/results_post",
-            contentType: 'application/json;charset=UTF-8',
-            data: JSON.stringify(data, null, '\t'),
-            dataType: 'json', 
-            success: function(data) {
-                window.location.href = data['url']
-            }
-        });
-    }
-}
-
 $(".question").append("<p>"+questions[numQuestion][0]+"</p>");
 $(document).ready(function () {
     function getNextQuestion(question = -1) {
@@ -141,12 +121,13 @@ $(document).ready(function () {
                 }
                 avg = sum/scores.length; 
                 console.log(avg);
-                questionsAnswered++; 
-
             } 
             console.log(scores);
+
+            
         }
-        updateProgressBar();
+        console.log(scores);
+
     });
 
     $("#backBtn").click(function () {
@@ -158,7 +139,5 @@ $(document).ready(function () {
             questionsAnswered--;
             getNextQuestion(prevQuestion);
         }
-        updateProgressBar();
     });
 });
-
