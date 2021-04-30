@@ -32,6 +32,8 @@ rather use a consistent template -->
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/7c9a8a72d3.js" crossorigin="anonymous"></script>
 
+    {% block headScripts %}{% endblock %}
+
 </head>
 <body id="body">
     <!-- Navbar Image and text -->
@@ -43,9 +45,6 @@ rather use a consistent template -->
         <ul class="navList" id="">
             <li class="nav-item active">
                 <a onmouseover="navLinkHover(this, '#42ffc0')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/about" id="navLink"><span class="navName">About</span></a>
-            </li>
-            <li class="nav-item active">
-                <a onmouseover="navLinkHover(this, '#3bd4b0')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/articles" id="navLink"><span class="navName">Articles</span></a>
             </li>
             <li class="nav-item active">
                 <a onmouseover="navLinkHover(this, '#33b88c')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/meditation" id="navLink"><span class="navName">Meditation</span></a>
