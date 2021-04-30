@@ -32,6 +32,8 @@ rather use a consistent template -->
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/7c9a8a72d3.js" crossorigin="anonymous"></script>
 
+    {% block headScripts %}{% endblock %}
+
 </head>
 <body id="body">
     <!-- Navbar Image and text -->
@@ -44,20 +46,17 @@ rather use a consistent template -->
             <li class="nav-item active">
                 <a onmouseover="navLinkHover(this, '#42ffc0')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/about" id="navLink"><span class="navName">About</span></a>
             </li>
-            
             <li class="nav-item active">
                 <a onmouseover="navLinkHover(this, '#33b88c')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/meditation" id="navLink"><span class="navName">Meditation</span></a>
             </li>
             {% if current_user.is_authenticated %}
-                <li class="nav-item active">
-                    <a onmouseover="navLinkHover(this, '#2EAD76')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/calendar" id="navLink"><span class="navName">Calendar</span></a>
-                </li>
                 <li class="nav-item active">
                     <a onmouseover="navLinkHover(this, '#2EAD76')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/settings" id="navLink"><span class="navName">Settings</span></a>
                 </li>
                 <li class="nav-item active">
                     <a onmouseover="navLinkHover(this, '#2EAD76')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/logout" id="navLink"><span class="navName">Logout</span></a>
                 </li>
+                
             {% else %}
                 <li class="nav-item active">
                     <a onmouseover="navLinkHover(this, '#2EAD76')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/login" id="navLink"><span class="navName">Login</span></a>
