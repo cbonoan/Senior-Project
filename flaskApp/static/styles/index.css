@@ -45,9 +45,8 @@
     #welcomeMsg {
         width: 100% !important;
     }
-    #articles img {
-        width: 500px !important;
-        min-height: 440px !important;
+    #content2 {
+        display: none !important;
     }
 }
 #welcomeMsg {

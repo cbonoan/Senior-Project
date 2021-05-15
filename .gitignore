@@ -1,4 +1,4 @@
 flaskApp/__pycache__/
 flask_session/
-env
+virtual
 flaskApp/*.pyc
