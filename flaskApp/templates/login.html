@@ -31,7 +31,7 @@
                 <label for="pwd" class="labelPwd"></label>
                 
             </div>
-            <a href="" class="text-muted text-center">Forgot Password?</a>
+            <a href="{{ url_for('resetRequest') }}" class="text-muted text-center">Forgot Password?</a>
             <div class="rememberMe checkbox text-center">
                 <label for="">
                     {{ form.remember(type="checkbox") }}

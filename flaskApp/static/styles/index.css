@@ -7,6 +7,10 @@
     #sloganText {
         display: block !important;
     }
+    #stmt {
+        max-height: 750px;
+        overflow-y: scroll;
+    }
 }
 @media screen and (max-width: 1500px) {
     #slogan {

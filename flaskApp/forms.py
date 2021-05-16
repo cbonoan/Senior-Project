@@ -28,4 +28,20 @@ class LoginForm(FlaskForm):
     btn = SubmitField('Sign In')
     remember = BooleanField('Remember Me')
 
-    
+class RequestResetForm(FlaskForm):
+    email = EmailField('email', 
+                        validators=[DataRequired(), Email()])
+    btn = SubmitField('Request Password Reset')
+
+    # Need to check if email does not exist
+    def validate_email(self, email):
+        user = User.query.filter_by(email=email.data).first()
+        if user is None:
+            raise ValidationError('There is no account associated with this email.')
+
+class ResetPasswordForm(FlaskForm):
+    # Have user create new password and confirm it
+    pwd = PasswordField('Password', validators=[DataRequired()])
+    confirmPwd = PasswordField('Confirm Password',
+                                validators=[DataRequired(), EqualTo('pwd')])
+    submit = SubmitField('Reset Password')

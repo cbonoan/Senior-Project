@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/login.css') }}">
+{%endblock%}
+{%block content%}
+    <div>
+        <form method="POST" action="{{ url_for('resetRequest') }}"> 
+            {{ form.hidden_tag() }}
+            <div class="loginImg text-center">
+                <img src="{{ url_for('static', filename='pictures/MindSanctuary_Icon.png') }}" alt="" width="165" height="165">
+                <h4>Reset Password</h4>
+            </div>
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="alert alert-{{ category }}">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {%endwith%}
+            <div class="emailSection text-center form-group">
+                {% if form.email.errors %}
+                    {{ form.email(class="labelEmail is-invalid text-center", autocomplete="off", placeholder="Email", id="emailField") }}
+                    <label for="email" class="labelEmail"></label> 
+                    <div class="invalid-feedback">
+                        {% for error in form.email.errors %}
+                            <span>{{ error }}</span>
+                            <br>
+                            <span>You can register your email <a href="{{ url_for('register') }}">here</a>.</span>
+                        {% endfor %}
+                    </div>
+                {% else %}
+                     {{ form.email(class="labelEmail text-center", autocomplete="off", placeholder="Email", id="emailField") }}
+                    <label for="email" class="labelEmail"></label> 
+                {% endif %}
+            </div>
+            <div class="form-group">
+                {{ form.btn(class="btn", id="btn", type="submit", style="width: 100%;") }}
+            </div>
+        </form>
+    </div>
+{%endblock%}
+{%block scripts%}
+    <script src="{{ url_for('static', filename='scripts/login.js') }}"></script>
+{%endblock%}

@@ -1,0 +1,58 @@
+{% extends "layout.html" %}
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/login.css') }}">
+{%endblock%}
+{%block content%}
+    <div>
+        <form method="POST" action=""> 
+            {{ form.hidden_tag() }}
+            <div class="loginImg text-center">
+                <img src="{{ url_for('static', filename='pictures/MindSanctuary_Icon.png') }}" alt="" width="165" height="165">
+                <h4>Reset Password</h4>
+            </div>
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="alert alert-{{ category }}">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {%endwith%}
+            <div class="passwordSection text-center form-group">
+                <i class="fas fa-eye-slash icon"  id="icon" onclick="showPwd()"></i>
+                {% if form.pwd.errors %}
+                    {{ form.pwd(class="labelPwd is-invalid text-center", autocomplete="off", placeholder="Password", id="pwdField") }}
+                    <label for="pwd" class="labelPwd"></label> 
+                    <div class="invalid-feedback">
+                        {% for error in form.pwd.errors %}
+                            <span>{{ error }}</span>
+                        {% endfor %}
+                    </div>
+                {% else %}
+                     {{ form.pwd(class="labelPwd text-center", autocomplete="off", placeholder="Password", id="pwdField") }}
+                    <label for="pwd" class="labelPwd"></label> 
+                {% endif %}
+            </div>
+            <div class="passwordSection text-center form-group">
+                <i class="fas fa-eye-slash icon"  id="icon" onclick="showPwd()"></i>
+                {% if form.confirmPwd.errors %}
+                    {{ form.confirmPwd(class="labelPwd is-invalid text-center", autocomplete="off", placeholder="Confirm Password", id="pwdField") }}
+                    <label for="pwd" class="labelPwd"></label> 
+                    <div class="invalid-feedback">
+                        {% for error in form.confirmPwd.errors %}
+                            <span>{{ error }}</span>
+                        {% endfor %}
+                    </div>
+                {% else %}
+                     {{ form.confirmPwd(class="labelPwd text-center", autocomplete="off", placeholder="Confirm Password", id="pwdField") }}
+                    <label for="pwd" class="labelPwd"></label> 
+                {% endif %}
+            </div>
+            {{ form.submit(class="btn", id="btn", type="submit", style="width: 100%;") }}
+        </form>
+    </div>
+{%endblock%}
+{%block scripts%}
+    <script src="{{ url_for('static', filename='scripts/login.js') }}"></script>
+{%endblock%}
