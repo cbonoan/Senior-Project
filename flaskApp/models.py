@@ -57,6 +57,7 @@ class Movies(db.Model, UserMixin):
 class Songs(db.Model, UserMixin):
     songs_emotion = db.Column(db.String(45), nullable=False, primary_key=True)
     songs_title = db.Column(db.String(45), nullable=False, primary_key=True)
+    songs_link = db.Column(db.String(250), nullable=False, primary_key=False)
 
 class Articles(db.Model, UserMixin):
     article_emotion = db.Column(db.String(45), nullable=False, primary_key=True)

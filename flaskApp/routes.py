@@ -25,10 +25,47 @@ def home():
 def quiz():
     return render_template('quiz.html', title='Quiz')
 
-@app.route("/results", methods=['GET'])
+@app.route("/results", methods=['GET','POST'])
+@login_required
 def results():
-    if request.method == 'GET':
-        return render_template('results.html')
+    if request.method == 'POST':
+        emotion_temp = ""
+        neutral = {
+            -0.5: "bored", -0.4: "indifferent", -0.3: "apathetic", -0.2: "distant", -0.1: "reserved", 
+            0.0: "independent", 0.1: "relaxed", 0.2: "calm", 0.3: "sleepy", 0.4: "content", 0.5: "satisfied"
+        }
+        good = {
+            0.5: "joyful", 0.6: "amused", 0.7: "inspired", 0.8: "confident", 0.9: "recreational",
+            1.0: "reminiscent", 1.1: "creative", 1.2: "enthusiastic", 1.3: "self-assured", 1.4: "playful",
+            1.5: "nostalgic", 1.6: "artistic", 1.7: "passionate", 1.8: "valued", 1.9: "curious", 2.0: "thankful"
+         }
+        bad = {
+            -2.0: "skeptical", -1.9: "bitter", -1.8: "paranoid", -1.7: "worthless", -1.6: "embarrassed", -1.5: "abandoned",
+            -1.4: "annoyed", -1.3: "fearful", -1.2: "hopeless", -1.1: "powerless", -1.0: "lonely",
+            -0.9: "frustrated", -0.8: "scared", -0.7: "worried", -0.6: "vulnerable", -0.5: "melancholy"
+        }
+        if(float(request.form['avg']) <= -0.5):
+            emotion_temp = bad[float(request.form['avg'])]
+        elif(float(request.form['avg']) <= 0.5):
+            emotion_temp = neutral[float(request.form['avg'])]
+        else:
+            emotion_temp = good[float(request.form['avg'])]
+
+        check = Feelings.query.filter_by(id=current_user.id, date=date.today()).first()
+        articles = Articles.query.filter_by(article_emotion = emotion_temp).first()
+        songs = Songs.query.filter_by(songs_emotion = emotion_temp).first()
+        books = Book.query.filter_by(book_emotion=emotion_temp).first()
+        #print(check)
+        if check:
+            check.emotion = emotion_temp
+            db.session.commit()
+        else:
+            feelings = Feelings(id=current_user.id, emotion= emotion_temp,date=date.today())
+            db.session.add(feelings)
+            db.session.commit()
+        #print(date.today())
+        return render_template('results.html',article=articles.article_title,song=songs.songs_link,book=books.book_title, emotion=emotion_temp)
+    return render_template('index.html')
 
 @app.route("/results_post", methods=['POST'])
 def results_post():
@@ -196,3 +233,11 @@ def settings_post():
             flash(f'Incorrect confirmation number, settings not saved.', 'warning')
             return redirect(url_for('home'))
     return redirect(url_for('home'))
+
+@app.route("/calendar")
+@login_required
+def calendar():
+    email = current_user.email
+    feeling = Feelings.query.filter_by(id=current_user.id).all()
+
+    return render_template('calendar.html', email=email, feeling=feeling, size = len(feeling))

@@ -50,6 +50,9 @@ rather use a consistent template -->
                 <a onmouseover="navLinkHover(this, '#33b88c')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/meditation" id="navLink"><span class="navName">Meditation</span></a>
             </li>
             {% if current_user.is_authenticated %}
+            <li class="nav-item active">
+                <a onmouseover="navLinkHover(this, '#2EAD76')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/calendar" id="navLink"><span class="navName">Calendar</span></a>
+            </li>
                 <li class="nav-item active">
                     <a onmouseover="navLinkHover(this, '#2EAD76')" onmouseout="navLinkMouseOut(this)" class="nav-link" href="/settings" id="navLink"><span class="navName">Settings</span></a>
                 </li>

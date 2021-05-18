@@ -79,20 +79,6 @@ var index = 0;  // Use backtracking so that user can reanswer questions
 function updateProgressBar() {
     var progress = (questionsAnswered/totalQuestions) * 100;
     document.getElementById("progressBar").style.width = progress + "%";
-
-    if(progress == 100) {
-        data = {'quizRes': avg};
-        $.ajax({
-            type: "POST",
-            url: "/results_post",
-            contentType: 'application/json;charset=UTF-8',
-            data: JSON.stringify(data, null, '\t'),
-            dataType: 'json', 
-            success: function(data) {
-                window.location.href = data['url']
-            }
-        });
-    }
 }
 
 $(".question").append("<p>"+questions[numQuestion][0]+"</p>");
@@ -143,6 +129,12 @@ $(document).ready(function () {
                 console.log(avg);
                 questionsAnswered++; 
 
+                var temp = document.createElement("input");
+                temp.setAttribute("name", "avg");
+                temp.setAttribute("value", avg);
+                temp.setAttribute("style", "display:none");
+                document.getElementById("myForm").appendChild(temp);
+                document.getElementById("myForm").submit();
             } 
             console.log(scores);
         }

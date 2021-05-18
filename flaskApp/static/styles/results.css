@@ -1,8 +1,8 @@
 #body {
     background-image: linear-gradient(#96ED89, white);
+    margin-top: 100px;
 }
 #stmt {
-    margin-top: 100px;
 }
 #results {
     background: white;

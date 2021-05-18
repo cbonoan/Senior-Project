@@ -10,32 +10,34 @@
         <div class="container question">
         </div>
         <div class="container text-left">
-            <div class="row answers">
-                <div class="col col-lg col-12 col1">
-                    <input type="radio" name="answer" id="answer1" value="-2">
-                    <label for="answer1">Strongly Disagree</label>
-                </div>
+            <form id="myForm" action="/results" method="POST">
+                <div class="row answers">
+                    <div class="col col-lg col-12 col1">
+                        <input type="radio" name="answer" id="answer1" value="-2">
+                        <label for="answer1">Strongly Disagree</label>
+                    </div>
 
-                <div class="col col-lg col-12 col2">
-                    <input type="radio" name="answer" id="answer2" value="-1">
-                    <label for="answer2">Disagree</label>
-                </div>
-                
-                <div class="col col-lg col-12 col3">
-                    <input type="radio" name="answer" id="answer3" value="0">
-                    <label for="answer3">Neutral</label>
-                </div>
+                    <div class="col col-lg col-12 col2">
+                        <input type="radio" name="answer" id="answer2" value="-1">
+                        <label for="answer2">Disagree</label>
+                    </div>
+                    
+                    <div class="col col-lg col-12 col3">
+                        <input type="radio" name="answer" id="answer3" value="0">
+                        <label for="answer3">Neutral</label>
+                    </div>
 
-                <div class="col col-lg col-12 col4">
-                    <input type="radio" name="answer" id="answer4" value="1">
-                    <label for="answer4">Agree</label>
-                </div>
+                    <div class="col col-lg col-12 col4">
+                        <input type="radio" name="answer" id="answer4" value="1">
+                        <label for="answer4">Agree</label>
+                    </div>
 
-                <div class="col col-lg col-12 col5">
-                    <input type="radio" name="answer" id="answer5" value="2">
-                    <label for="answer5">Strongly Agree</label>
+                    <div class="col col-lg col-12 col5">
+                        <input type="radio" name="answer" id="answer5" value="2">
+                        <label for="answer5">Strongly Agree</label>
+                    </div>
                 </div>
-            </div>
+            </form>
         </div>
         <div class="navigate">
             <div>
