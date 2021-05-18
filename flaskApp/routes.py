@@ -67,14 +67,6 @@ def results():
         return render_template('results.html',article=articles.article_title,song=songs.songs_link,book=books.book_title, emotion=emotion_temp)
     return render_template('index.html')
 
-@app.route("/results_post", methods=['POST'])
-def results_post():
-    if request.method == 'POST':
-        data = request.json
-        session['quizAvg'] = data['quizRes']
-        redirect = {'url': url_for('results')}
-        return jsonify(redirect)
-
 @app.route("/meditation")
 def meditation():
     return render_template('meditation.html')
