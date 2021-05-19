@@ -1,4 +1,7 @@
 @import "keyframes.css";
+#body {
+    font-family: 'Open Sans', sans-serif, cursive;
+}
 
 #section {
     font-family: 'Open Sans', sans-serif;
@@ -6,6 +9,16 @@
     font-size: medium;
     text-align: left;
     padding: 50px;
+}
+p{
+    margin-bottom: 0 !important;
+    font-size: 20px;
+}
+#missionStmt, #teamDescription {
+    background-color: #2185C5;
+    padding: 15px;
+    margin-bottom: 0;
+    border-radius: 15px;
 }
 .title1 {
     text-align: center;
