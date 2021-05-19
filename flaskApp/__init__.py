@@ -10,6 +10,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = '45af0f166b995f0da71012d3e6d9d708' # Protects application from certain attacks
 
 app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+mysqlconnector://root:"+os.environ.get('DB_PWD')+"@127.0.0.1:3307/devdb"
+#app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+mysqlconnector://root:M!ndS@nctuary2021@ec2-54-67-90-244.us-west-1.compute.amazonaws.com:3306/ProdDB"
 db = SQLAlchemy(app) 
 
 bcrypt = Bcrypt(app)

@@ -17,7 +17,7 @@ class Admin(db.Model, UserMixin):
     
 class User(db.Model, UserMixin):
     id = db.Column(INTEGER(unsigned=True), primary_key=True, nullable=False, unique=True)
-    username = db.Column(db.String(45), nullable=False)
+    username = db.Column(db.String(45), nullable=False, unique=True)
     email = db.Column(db.String(45), nullable=False, unique=True)
     password = db.Column(db.String(65), nullable=False)
     name = db.Column(db.String(45), nullable=False)
