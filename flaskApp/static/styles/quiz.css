@@ -39,3 +39,15 @@
     margin-top: 25px;
     max-width: 50%;
 }
+
+.message {
+    font-size: 22px;
+    color: white;
+    background-color: #445878;
+    border-radius: 15px;
+    padding: 20px;;
+    margin-top: 20px;
+}
+.message p {
+    margin-bottom: 0 !important;
+}

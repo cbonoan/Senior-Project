@@ -6,6 +6,7 @@ from flask_login import login_user, logout_user, current_user, login_required
 from random import randint
 from flask_session import Session
 from flask_mail import Message
+from werkzeug.exceptions import HTTPException
 from datetime import date
 import json
 
@@ -147,7 +148,7 @@ def resetRequest():
     if form.validate_on_submit():
         user = User.query.filter_by(email=form.email.data).first()
         if(user is None):
-            flash("There is noaccount associated with this email.", 'warning')
+            flash("There is no account associated with this email.", 'warning')
             return redirect(url_for('register'))
 
         sendResetEmail(user)
@@ -234,3 +235,7 @@ def calendar():
     feeling = Feelings.query.filter_by(id=current_user.id).all()
 
     return render_template('calendar.html', email=email, feeling=feeling, size = len(feeling))
+
+@app.errorhandler(502)
+def error_500(error):
+    return render_template('502.html'), 500

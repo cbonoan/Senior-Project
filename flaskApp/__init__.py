@@ -18,13 +18,11 @@ login_manager = LoginManager(app)
 login_manager.login_view = 'login' # If user is trying to access a page that requires them to login, they will be redirected to the login page
 login_manager.login_message_category = 'info'
 
-app.config['MAIL_SERVER'] = 'smtp.googlemail.com'
+app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = 'testing54321123'
 app.config['MAIL_PASSWORD'] = 'testing#12345'
 mail = Mail(app)
-
-
 
 from flaskApp import routes
